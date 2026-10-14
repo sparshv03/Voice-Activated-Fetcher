@@ -3,6 +3,11 @@
 A ROS 2 mobile-manipulator project for locating and fetching selected objects. The workspace contains packages for object perception, robot control, and sensor/input handling.
 
 > **Current status:** Voice-related code is present, but the main `full_pipeline` launch currently takes the target object as typed keyboard input through `human_talk`. Voice-based target selection is not yet wired into that launch. The detector currently supports `bottle`, `cup`, and `sports ball`.
+## Demo
+
+
+https://github.com/user-attachments/assets/28f2929a-2715-42d3-9651-c93f55e05672
+
 
 ## Packages
 
