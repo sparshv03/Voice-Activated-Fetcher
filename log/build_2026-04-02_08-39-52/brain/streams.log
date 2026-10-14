@@ -1,0 +1,15 @@
+[1.235s] Invoking command in '/home/apollo930/rtk/build/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data
+[1.392s] running develop
+[1.470s] running egg_info
+[1.478s] writing brain.egg-info/PKG-INFO
+[1.478s] writing dependency_links to brain.egg-info/dependency_links.txt
+[1.478s] writing requirements to brain.egg-info/requires.txt
+[1.478s] writing top-level names to brain.egg-info/top_level.txt
+[1.494s] reading manifest file 'brain.egg-info/SOURCES.txt'
+[1.495s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[1.503s] running build_ext
+[1.503s] Creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+[1.504s] 
+[1.504s] Installed /home/apollo930/rtk/build/brain
+[1.504s] running symlink_data
+[1.544s] Invoked command in '/home/apollo930/rtk/build/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data

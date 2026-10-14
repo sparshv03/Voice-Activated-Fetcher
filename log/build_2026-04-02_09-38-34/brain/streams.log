@@ -1,0 +1,41 @@
+[0.707s] Invoking command in '/home/apollo930/rtk/build/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/apollo930/rtk/build/brain/build
+[0.868s] running develop
+[0.956s] Removing /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+[0.980s] Invoked command in '/home/apollo930/rtk/build/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/apollo930/rtk/build/brain/build
+[0.982s] Invoking command in '/home/apollo930/rtk/src/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/apollo930/rtk/build/brain/build install --record /home/apollo930/rtk/build/brain/install.log --single-version-externally-managed install_data --force
+[1.134s] running egg_info
+[1.143s] writing ../../build/brain/brain.egg-info/PKG-INFO
+[1.143s] writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt
+[1.143s] writing entry points to ../../build/brain/brain.egg-info/entry_points.txt
+[1.143s] writing requirements to ../../build/brain/brain.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/brain/brain.egg-info/top_level.txt
+[1.160s] reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[1.160s] writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+[1.160s] running build
+[1.161s] running build_py
+[1.161s] copying brain/human_talk.py -> /home/apollo930/rtk/build/brain/build/lib/brain
+[1.161s] running install
+[1.164s] running install_lib
+[1.172s] creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.172s] copying /home/apollo930/rtk/build/brain/build/lib/brain/stt.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.173s] copying /home/apollo930/rtk/build/brain/build/lib/brain/gtts.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.173s] copying /home/apollo930/rtk/build/brain/build/lib/brain/human_talk.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.173s] copying /home/apollo930/rtk/build/brain/build/lib/brain/__init__.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.173s] copying /home/apollo930/rtk/build/brain/build/lib/brain/arduino_ping.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+[1.173s] byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/stt.py to stt.cpython-312.pyc
+[1.174s] byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/gtts.py to gtts.cpython-312.pyc
+[1.175s] byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/human_talk.py to human_talk.cpython-312.pyc
+[1.176s] byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/__init__.py to __init__.cpython-312.pyc
+[1.176s] byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/arduino_ping.py to arduino_ping.cpython-312.pyc
+[1.176s] running install_data
+[1.176s] copying resource/brain -> /home/apollo930/rtk/install/brain/share/ament_index/resource_index/packages
+[1.176s] copying package.xml -> /home/apollo930/rtk/install/brain/share/brain
+[1.176s] running install_egg_info
+[1.185s] Copying ../../build/brain/brain.egg-info to /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info
+[1.186s] running install_scripts
+[1.247s] Installing arduino_ping script to /home/apollo930/rtk/install/brain/lib/brain
+[1.247s] Installing brain_gtts script to /home/apollo930/rtk/install/brain/lib/brain
+[1.247s] Installing human_talk script to /home/apollo930/rtk/install/brain/lib/brain
+[1.247s] Installing stt script to /home/apollo930/rtk/install/brain/lib/brain
+[1.247s] writing list of installed files to '/home/apollo930/rtk/build/brain/install.log'
+[1.268s] Invoked command in '/home/apollo930/rtk/src/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/brain build --build-base /home/apollo930/rtk/build/brain/build install --record /home/apollo930/rtk/build/brain/install.log --single-version-externally-managed install_data --force

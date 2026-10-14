@@ -1,0 +1,5 @@
+[console_scripts]
+arduino_ping = brain.arduino_ping:main
+brain_gtts = brain.gtts:main
+human_talk = brain.human_talk:main
+stt = brain.stt:main

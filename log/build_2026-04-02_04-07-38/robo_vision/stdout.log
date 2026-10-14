@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/robo_vision/robo_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_vision/robo_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_vision/robo_vision.egg-info/entry_points.txt
+writing requirements to ../../build/robo_vision/robo_vision.egg-info/requires.txt
+writing top-level names to ../../build/robo_vision/robo_vision.egg-info/top_level.txt
+reading manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robo_vision/robo_vision.egg-info to /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_stream script to /home/rtk/rtk/install/robo_vision/lib/robo_vision
+Installing object_det_remote script to /home/rtk/rtk/install/robo_vision/lib/robo_vision
+writing list of installed files to '/home/rtk/rtk/build/robo_vision/install.log'

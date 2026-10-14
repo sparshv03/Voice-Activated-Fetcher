@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing brain.egg-info/PKG-INFO
+writing dependency_links to brain.egg-info/dependency_links.txt
+writing entry points to brain.egg-info/entry_points.txt
+writing requirements to brain.egg-info/requires.txt
+writing top-level names to brain.egg-info/top_level.txt
+reading manifest file 'brain.egg-info/SOURCES.txt'
+writing manifest file 'brain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+Installing arduino_ping script to /home/apollo930/rtk/install/brain/lib/brain
+Installing brain_gtts script to /home/apollo930/rtk/install/brain/lib/brain
+Installing human_talk script to /home/apollo930/rtk/install/brain/lib/brain
+Installing stt script to /home/apollo930/rtk/install/brain/lib/brain
+
+Installed /home/apollo930/rtk/build/brain
+running symlink_data

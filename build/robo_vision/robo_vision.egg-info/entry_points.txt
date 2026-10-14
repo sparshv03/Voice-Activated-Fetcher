@@ -1,0 +1,3 @@
+[console_scripts]
+camera_stream = robo_vision.camera_stream_node:main
+object_det_remote = robo_vision.chassis_obj_det:main

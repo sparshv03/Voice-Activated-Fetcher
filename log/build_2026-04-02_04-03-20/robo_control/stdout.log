@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing robo_control.egg-info/PKG-INFO
+writing dependency_links to robo_control.egg-info/dependency_links.txt
+writing entry points to robo_control.egg-info/entry_points.txt
+writing requirements to robo_control.egg-info/requires.txt
+writing top-level names to robo_control.egg-info/top_level.txt
+reading manifest file 'robo_control.egg-info/SOURCES.txt'
+writing manifest file 'robo_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo-control.egg-link (link to .)
+Installing propeller_tracker script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+
+Installed /home/apollo930/rtk/build/robo_control
+running symlink_data
+symbolically linking /home/apollo930/rtk/build/robo_control/resource/robo_control -> /home/apollo930/rtk/install/robo_control/share/ament_index/resource_index/packages
+symbolically linking /home/apollo930/rtk/build/robo_control/package.xml -> /home/apollo930/rtk/install/robo_control/share/robo_control
+symbolically linking /home/apollo930/rtk/build/robo_control/launch/raspi_stack.launch.py -> /home/apollo930/rtk/install/robo_control/share/robo_control/launch

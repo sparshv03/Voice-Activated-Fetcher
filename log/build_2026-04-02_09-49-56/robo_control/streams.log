@@ -1,0 +1,19 @@
+[0.653s] Invoking command in '/home/apollo930/rtk/build/robo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_control/build --no-deps symlink_data
+[0.854s] running develop
+[0.937s] running egg_info
+[0.946s] writing robo_control.egg-info/PKG-INFO
+[0.946s] writing dependency_links to robo_control.egg-info/dependency_links.txt
+[0.946s] writing entry points to robo_control.egg-info/entry_points.txt
+[0.946s] writing requirements to robo_control.egg-info/requires.txt
+[0.946s] writing top-level names to robo_control.egg-info/top_level.txt
+[0.964s] reading manifest file 'robo_control.egg-info/SOURCES.txt'
+[0.964s] writing manifest file 'robo_control.egg-info/SOURCES.txt'
+[0.973s] running build_ext
+[0.974s] Creating /home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo-control.egg-link (link to .)
+[0.974s] Installing packet_mapper script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[0.975s] Installing propeller_tracker script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[0.975s] Installing step_bridge_arm script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[0.975s] 
+[0.975s] Installed /home/apollo930/rtk/build/robo_control
+[0.975s] running symlink_data
+[1.005s] Invoked command in '/home/apollo930/rtk/build/robo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_control/build --no-deps symlink_data

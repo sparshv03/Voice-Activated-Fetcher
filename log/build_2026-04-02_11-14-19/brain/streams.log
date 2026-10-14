@@ -1,0 +1,20 @@
+[0.860s] Invoking command in '/home/apollo930/rtk/build/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data
+[1.044s] running develop
+[1.155s] running egg_info
+[1.164s] writing brain.egg-info/PKG-INFO
+[1.164s] writing dependency_links to brain.egg-info/dependency_links.txt
+[1.164s] writing entry points to brain.egg-info/entry_points.txt
+[1.164s] writing requirements to brain.egg-info/requires.txt
+[1.164s] writing top-level names to brain.egg-info/top_level.txt
+[1.183s] reading manifest file 'brain.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[1.193s] running build_ext
+[1.193s] Creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+[1.193s] Installing arduino_ping script to /home/apollo930/rtk/install/brain/lib/brain
+[1.193s] Installing brain_gtts script to /home/apollo930/rtk/install/brain/lib/brain
+[1.193s] Installing human_talk script to /home/apollo930/rtk/install/brain/lib/brain
+[1.194s] Installing stt script to /home/apollo930/rtk/install/brain/lib/brain
+[1.194s] 
+[1.194s] Installed /home/apollo930/rtk/build/brain
+[1.194s] running symlink_data
+[1.219s] Invoked command in '/home/apollo930/rtk/build/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data

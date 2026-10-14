@@ -1,0 +1,5 @@
+[console_scripts]
+packet_mapper = robo_control.arm_control:main
+propeller_tracker = robo_control.chassis_control:main
+step_bridge_arm = robo_control.step_bridge_arm:main
+ultrasonic_arm_mapper = robo_control.arm_control:main

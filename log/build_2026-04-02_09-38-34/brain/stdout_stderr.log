@@ -1,0 +1,37 @@
+running develop
+Removing /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+running egg_info
+writing ../../build/brain/brain.egg-info/PKG-INFO
+writing dependency_links to ../../build/brain/brain.egg-info/dependency_links.txt
+writing entry points to ../../build/brain/brain.egg-info/entry_points.txt
+writing requirements to ../../build/brain/brain.egg-info/requires.txt
+writing top-level names to ../../build/brain/brain.egg-info/top_level.txt
+reading manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+writing manifest file '../../build/brain/brain.egg-info/SOURCES.txt'
+running build
+running build_py
+copying brain/human_talk.py -> /home/apollo930/rtk/build/brain/build/lib/brain
+running install
+running install_lib
+creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+copying /home/apollo930/rtk/build/brain/build/lib/brain/stt.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+copying /home/apollo930/rtk/build/brain/build/lib/brain/gtts.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+copying /home/apollo930/rtk/build/brain/build/lib/brain/human_talk.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+copying /home/apollo930/rtk/build/brain/build/lib/brain/__init__.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+copying /home/apollo930/rtk/build/brain/build/lib/brain/arduino_ping.py -> /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain
+byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/stt.py to stt.cpython-312.pyc
+byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/gtts.py to gtts.cpython-312.pyc
+byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/human_talk.py to human_talk.cpython-312.pyc
+byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain/arduino_ping.py to arduino_ping.cpython-312.pyc
+running install_data
+copying resource/brain -> /home/apollo930/rtk/install/brain/share/ament_index/resource_index/packages
+copying package.xml -> /home/apollo930/rtk/install/brain/share/brain
+running install_egg_info
+Copying ../../build/brain/brain.egg-info to /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arduino_ping script to /home/apollo930/rtk/install/brain/lib/brain
+Installing brain_gtts script to /home/apollo930/rtk/install/brain/lib/brain
+Installing human_talk script to /home/apollo930/rtk/install/brain/lib/brain
+Installing stt script to /home/apollo930/rtk/install/brain/lib/brain
+writing list of installed files to '/home/apollo930/rtk/build/brain/install.log'

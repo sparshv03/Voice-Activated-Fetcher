@@ -1,0 +1,40 @@
+[0.630s] Invoking command in '/home/apollo930/rtk/build/robo_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/apollo930/rtk/build/robo_vision/build
+[0.788s] running develop
+[0.899s] Removing /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo-vision.egg-link (link to .)
+[0.929s] Invoked command in '/home/apollo930/rtk/build/robo_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/apollo930/rtk/build/robo_vision/build
+[0.931s] Invoking command in '/home/apollo930/rtk/src/robo_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/apollo930/rtk/build/robo_vision/build install --record /home/apollo930/rtk/build/robo_vision/install.log --single-version-externally-managed install_data --force
+[1.130s] running egg_info
+[1.139s] writing ../../build/robo_vision/robo_vision.egg-info/PKG-INFO
+[1.140s] writing dependency_links to ../../build/robo_vision/robo_vision.egg-info/dependency_links.txt
+[1.140s] writing entry points to ../../build/robo_vision/robo_vision.egg-info/entry_points.txt
+[1.140s] writing requirements to ../../build/robo_vision/robo_vision.egg-info/requires.txt
+[1.140s] writing top-level names to ../../build/robo_vision/robo_vision.egg-info/top_level.txt
+[1.158s] reading manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.158s] running build_py
+[1.158s] copying robo_vision/perception_utils.py -> /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision
+[1.158s] copying robo_vision/chassis_obj_det.py -> /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision
+[1.159s] running install
+[1.162s] running install_lib
+[1.171s] creating /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[1.171s] copying /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision/camera_stream_node.py -> /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[1.172s] copying /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision/__init__.py -> /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[1.172s] copying /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision/perception_utils.py -> /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[1.172s] copying /home/apollo930/rtk/build/robo_vision/build/lib/robo_vision/chassis_obj_det.py -> /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[1.172s] byte-compiling /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/camera_stream_node.py to camera_stream_node.cpython-312.pyc
+[1.173s] byte-compiling /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/__init__.py to __init__.cpython-312.pyc
+[1.173s] byte-compiling /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/perception_utils.py to perception_utils.cpython-312.pyc
+[1.174s] byte-compiling /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/chassis_obj_det.py to chassis_obj_det.cpython-312.pyc
+[1.175s] running install_data
+[1.175s] copying resource/robo_vision -> /home/apollo930/rtk/install/robo_vision/share/ament_index/resource_index/packages
+[1.175s] copying package.xml -> /home/apollo930/rtk/install/robo_vision/share/robo_vision
+[1.175s] copying launch/pi_camera_stream.launch.py -> /home/apollo930/rtk/install/robo_vision/share/robo_vision/launch
+[1.175s] copying launch/laptop_inference.launch.py -> /home/apollo930/rtk/install/robo_vision/share/robo_vision/launch
+[1.175s] running install_egg_info
+[1.185s] Copying ../../build/robo_vision/robo_vision.egg-info to /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info
+[1.186s] running install_scripts
+[1.253s] Installing camera_stream script to /home/apollo930/rtk/install/robo_vision/lib/robo_vision
+[1.254s] Installing object_det_remote script to /home/apollo930/rtk/install/robo_vision/lib/robo_vision
+[1.254s] writing list of installed files to '/home/apollo930/rtk/build/robo_vision/install.log'
+[1.301s] Invoked command in '/home/apollo930/rtk/src/robo_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/apollo930/rtk/build/robo_vision/build install --record /home/apollo930/rtk/build/robo_vision/install.log --single-version-externally-managed install_data --force

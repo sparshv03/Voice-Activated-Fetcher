@@ -1,0 +1,25 @@
+[0.717s] Invoking command in '/home/apollo930/rtk/src/robo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/apollo930/rtk/build/robo_control/build install --record /home/apollo930/rtk/build/robo_control/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.966s] writing ../../build/robo_control/robo_control.egg-info/PKG-INFO
+[0.966s] writing dependency_links to ../../build/robo_control/robo_control.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../../build/robo_control/robo_control.egg-info/entry_points.txt
+[0.966s] writing requirements to ../../build/robo_control/robo_control.egg-info/requires.txt
+[0.967s] writing top-level names to ../../build/robo_control/robo_control.egg-info/top_level.txt
+[0.997s] reading manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+[0.998s] running build
+[0.998s] running build_py
+[0.998s] running install
+[1.004s] running install_lib
+[1.020s] running install_data
+[1.020s] copying launch/full_pipeline.launch.py -> /home/apollo930/rtk/install/robo_control/share/robo_control/launch
+[1.020s] running install_egg_info
+[1.035s] removing '/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.036s] Copying ../../build/robo_control/robo_control.egg-info to /home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info
+[1.036s] running install_scripts
+[1.142s] Installing packet_mapper script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[1.142s] Installing propeller_tracker script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[1.142s] Installing step_bridge_arm script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[1.142s] Installing ultrasonic_arm_mapper script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[1.142s] writing list of installed files to '/home/apollo930/rtk/build/robo_control/install.log'
+[1.175s] Invoked command in '/home/apollo930/rtk/src/robo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/apollo930/rtk/build/robo_control/build install --record /home/apollo930/rtk/build/robo_control/install.log --single-version-externally-managed install_data

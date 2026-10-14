@@ -1,0 +1,22 @@
+[1.041s] Invoking command in '/home/apollo930/rtk/build/robo_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_vision/build --no-deps symlink_data --force
+[1.245s] running develop
+[1.338s] running egg_info
+[1.348s] writing robo_vision.egg-info/PKG-INFO
+[1.348s] writing dependency_links to robo_vision.egg-info/dependency_links.txt
+[1.349s] writing entry points to robo_vision.egg-info/entry_points.txt
+[1.349s] writing requirements to robo_vision.egg-info/requires.txt
+[1.349s] writing top-level names to robo_vision.egg-info/top_level.txt
+[1.368s] reading manifest file 'robo_vision.egg-info/SOURCES.txt'
+[1.368s] writing manifest file 'robo_vision.egg-info/SOURCES.txt'
+[1.378s] running build_ext
+[1.379s] Creating /home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages/robo-vision.egg-link (link to .)
+[1.379s] Installing camera_stream script to /home/apollo930/rtk/install/robo_vision/lib/robo_vision
+[1.379s] Installing object_det_remote script to /home/apollo930/rtk/install/robo_vision/lib/robo_vision
+[1.380s] 
+[1.380s] Installed /home/apollo930/rtk/build/robo_vision
+[1.380s] running symlink_data
+[1.380s] symbolically linking /home/apollo930/rtk/build/robo_vision/resource/robo_vision -> /home/apollo930/rtk/install/robo_vision/share/ament_index/resource_index/packages
+[1.380s] symbolically linking /home/apollo930/rtk/build/robo_vision/package.xml -> /home/apollo930/rtk/install/robo_vision/share/robo_vision
+[1.380s] symbolically linking /home/apollo930/rtk/build/robo_vision/launch/pi_camera_stream.launch.py -> /home/apollo930/rtk/install/robo_vision/share/robo_vision/launch
+[1.380s] symbolically linking /home/apollo930/rtk/build/robo_vision/launch/laptop_inference.launch.py -> /home/apollo930/rtk/install/robo_vision/share/robo_vision/launch
+[1.454s] Invoked command in '/home/apollo930/rtk/build/robo_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_vision/build --no-deps symlink_data --force

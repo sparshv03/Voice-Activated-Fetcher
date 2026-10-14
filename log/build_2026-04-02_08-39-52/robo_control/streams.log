@@ -1,0 +1,17 @@
+[1.239s] Invoking command in '/home/apollo930/rtk/build/robo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_control/build --no-deps symlink_data
+[1.386s] running develop
+[1.463s] running egg_info
+[1.471s] writing robo_control.egg-info/PKG-INFO
+[1.471s] writing dependency_links to robo_control.egg-info/dependency_links.txt
+[1.471s] writing entry points to robo_control.egg-info/entry_points.txt
+[1.472s] writing requirements to robo_control.egg-info/requires.txt
+[1.472s] writing top-level names to robo_control.egg-info/top_level.txt
+[1.487s] reading manifest file 'robo_control.egg-info/SOURCES.txt'
+[1.488s] writing manifest file 'robo_control.egg-info/SOURCES.txt'
+[1.496s] running build_ext
+[1.496s] Creating /home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo-control.egg-link (link to .)
+[1.497s] Installing propeller_tracker script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+[1.497s] 
+[1.497s] Installed /home/apollo930/rtk/build/robo_control
+[1.497s] running symlink_data
+[1.538s] Invoked command in '/home/apollo930/rtk/build/robo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/robo_control/build --no-deps symlink_data

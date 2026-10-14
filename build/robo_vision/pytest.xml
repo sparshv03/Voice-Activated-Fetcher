@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="1" tests="3" time="1.343" timestamp="2026-04-02T03:49:50.046528" hostname="pi"><testcase classname="robo_vision.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/rtk/rtk/src/robo_vision/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="robo_vision.test.test_flake8" name="test_flake8" time="0.598"><failure message="AssertionError: Found 105 code style errors / warnings:&#10;  ./robo_vision/camera_stream_node.py:12:26: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:14:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:15:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:16:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:17:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:17:44: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:18:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:18:47: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:19:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:22:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:25:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:28:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:30:44: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:32:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:35:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:42:37: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:43:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:60:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:62:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:71:43: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:78:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:86:43: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:92:22: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:100:37: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:103:26: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/camera_stream_node.py:123:16: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:17:18: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:17:28: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:17:35: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:22:26: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:24:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:24:48: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:25:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:25:47: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:26:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:29:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:32:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:35:32: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:42:33: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:44:58: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:45:60: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:55:29: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:56:30: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:65:100: E501 line too long (130 &gt; 99 characters)&#10;  ./robo_vision/chassis_obj_det.py:75:43: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:89:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:97:23: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:98:39: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:99:41: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:104:29: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:105:29: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:120:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:146:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:159:21: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:168:24: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:170:27: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:195:16: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/chassis_obj_det.py:196:11: W292 no newline at end of file&#10;  ./robo_vision/perception_utils.py:2:1: I100 Import statements are in the wrong order. 'import json' should be before 'from ultralytics import YOLO' and in a different group.&#10;  ./robo_vision/perception_utils.py:2:1: I201 Missing newline between import groups. 'import json' is identified as Stdlib and 'from ultralytics import YOLO' is identified as Third Party.&#10;  ./robo_vision/perception_utils.py:2:1: F401 'json' imported but unused&#10;  ./robo_vision/perception_utils.py:3:1: I201 Missing newline between import groups. 'import numpy' is identified as Third Party and 'import json' is identified as Stdlib.&#10;  ./robo_vision/perception_utils.py:3:1: F401 'numpy as np' imported but unused&#10;  ./robo_vision/perception_utils.py:6:14: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:33:1: E302 expected 2 blank lines, found 1&#10;  ./robo_vision/perception_utils.py:39:12: E221 multiple spaces before operator&#10;  ./robo_vision/perception_utils.py:43:11: E221 multiple spaces before operator&#10;  ./robo_vision/perception_utils.py:44:11: E221 multiple spaces before operator&#10;  ./robo_vision/perception_utils.py:46:27: W291 trailing whitespace&#10;  ./robo_vision/perception_utils.py:49:9: E303 too many blank lines (2)&#10;  ./robo_vision/perception_utils.py:50:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:51:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:52:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:53:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:54:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:55:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:56:13: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:69:50: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:74:44: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:96:1: W293 blank line contains whitespace&#10;  ./robo_vision/perception_utils.py:102:1: E302 expected 2 blank lines, found 1&#10;  ./robo_vision/perception_utils.py:103:1: W293 blank line contains whitespace&#10;  ./robo_vision/perception_utils.py:105:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:108:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:108:38: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:109:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:109:38: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:110:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:110:38: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:111:17: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:111:38: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:117:25: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:118:22: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:120:24: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:122:24: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:129:41: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:132:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:133:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:133:25: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:134:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:135:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:136:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:137:9: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:137:30: Q000 Double quotes found but single quotes preferred&#10;  ./robo_vision/perception_utils.py:138:6: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 105 code style errors / warnings:
+E     ./robo_vision/camera_stream_node.py:12:26: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:14:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:15:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:16:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:17:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:17:44: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:18:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:18:47: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:19:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:22:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:25:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:28:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:30:44: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:32:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:35:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:42:37: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:43:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:60:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:62:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:71:43: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:78:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:86:43: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:92:22: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:100:37: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:103:26: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/camera_stream_node.py:123:16: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:17:18: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:17:28: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:17:35: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:22:26: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:24:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:24:48: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:25:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:25:47: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:26:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:29:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:32:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:35:32: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:42:33: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:44:58: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:45:60: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:55:29: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:56:30: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:65:100: E501 line too long (130 &gt; 99 characters)
+E     ./robo_vision/chassis_obj_det.py:75:43: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:89:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:97:23: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:98:39: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:99:41: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:104:29: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:105:29: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:120:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:146:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:159:21: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:168:24: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:170:27: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:195:16: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/chassis_obj_det.py:196:11: W292 no newline at end of file
+E     ./robo_vision/perception_utils.py:2:1: I100 Import statements are in the wrong order. 'import json' should be before 'from ultralytics import YOLO' and in a different group.
+E     ./robo_vision/perception_utils.py:2:1: I201 Missing newline between import groups. 'import json' is identified as Stdlib and 'from ultralytics import YOLO' is identified as Third Party.
+E     ./robo_vision/perception_utils.py:2:1: F401 'json' imported but unused
+E     ./robo_vision/perception_utils.py:3:1: I201 Missing newline between import groups. 'import numpy' is identified as Third Party and 'import json' is identified as Stdlib.
+E     ./robo_vision/perception_utils.py:3:1: F401 'numpy as np' imported but unused
+E     ./robo_vision/perception_utils.py:6:14: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:33:1: E302 expected 2 blank lines, found 1
+E     ./robo_vision/perception_utils.py:39:12: E221 multiple spaces before operator
+E     ./robo_vision/perception_utils.py:43:11: E221 multiple spaces before operator
+E     ./robo_vision/perception_utils.py:44:11: E221 multiple spaces before operator
+E     ./robo_vision/perception_utils.py:46:27: W291 trailing whitespace
+E     ./robo_vision/perception_utils.py:49:9: E303 too many blank lines (2)
+E     ./robo_vision/perception_utils.py:50:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:51:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:52:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:53:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:54:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:55:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:56:13: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:69:50: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:74:44: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:96:1: W293 blank line contains whitespace
+E     ./robo_vision/perception_utils.py:102:1: E302 expected 2 blank lines, found 1
+E     ./robo_vision/perception_utils.py:103:1: W293 blank line contains whitespace
+E     ./robo_vision/perception_utils.py:105:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:108:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:108:38: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:109:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:109:38: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:110:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:110:38: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:111:17: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:111:38: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:117:25: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:118:22: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:120:24: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:122:24: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:129:41: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:132:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:133:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:133:25: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:134:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:135:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:136:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:137:9: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:137:30: Q000 Double quotes found but single quotes preferred
+E     ./robo_vision/perception_utils.py:138:6: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="robo_vision.test.test_pep257" name="test_pep257" time="0.126"><failure message="AssertionError: Found code style errors / warnings&#10;assert 1 == 0">test/test_pep257.py:23: in test_pep257
+    assert rc == 0, 'Found code style errors / warnings'
+E   AssertionError: Found code style errors / warnings
+E   assert 1 == 0</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,22 @@
+[1.492s] Invoking command in '/home/apollo930/rtk/build/brain': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data
+[1.663s] running develop
+[1.745s] running egg_info
+[1.745s] creating brain.egg-info
+[1.754s] writing brain.egg-info/PKG-INFO
+[1.754s] writing dependency_links to brain.egg-info/dependency_links.txt
+[1.754s] writing requirements to brain.egg-info/requires.txt
+[1.754s] writing top-level names to brain.egg-info/top_level.txt
+[1.754s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[1.771s] reading manifest file 'brain.egg-info/SOURCES.txt'
+[1.771s] writing manifest file 'brain.egg-info/SOURCES.txt'
+[1.780s] running build_ext
+[1.780s] Creating /home/apollo930/rtk/install/brain/lib/python3.12/site-packages/brain.egg-link (link to .)
+[1.780s] 
+[1.780s] Installed /home/apollo930/rtk/build/brain
+[1.780s] running symlink_data
+[1.780s] creating /home/apollo930/rtk/install/brain/share/ament_index
+[1.781s] creating /home/apollo930/rtk/install/brain/share/ament_index/resource_index
+[1.781s] creating /home/apollo930/rtk/install/brain/share/ament_index/resource_index/packages
+[1.782s] symbolically linking /home/apollo930/rtk/build/brain/resource/brain -> /home/apollo930/rtk/install/brain/share/ament_index/resource_index/packages
+[1.782s] symbolically linking /home/apollo930/rtk/build/brain/package.xml -> /home/apollo930/rtk/install/brain/share/brain
+[1.810s] Invoked command in '/home/apollo930/rtk/build/brain' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/apollo930/rtk/build/brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apollo930/rtk/install/brain/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/apollo930/rtk/build/brain/build --no-deps symlink_data

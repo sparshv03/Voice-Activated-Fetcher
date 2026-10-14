@@ -1,0 +1,20 @@
+[5.008s] Invoking command in '/home/rtk/rtk/build/robo_control': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rtk/rtk/build/robo_control/build --no-deps symlink_data --force
+[6.677s] running develop
+[7.666s] running egg_info
+[7.772s] writing robo_control.egg-info/PKG-INFO
+[7.773s] writing dependency_links to robo_control.egg-info/dependency_links.txt
+[7.776s] writing entry points to robo_control.egg-info/entry_points.txt
+[7.779s] writing requirements to robo_control.egg-info/requires.txt
+[7.780s] writing top-level names to robo_control.egg-info/top_level.txt
+[7.997s] reading manifest file 'robo_control.egg-info/SOURCES.txt'
+[7.999s] writing manifest file 'robo_control.egg-info/SOURCES.txt'
+[8.097s] running build_ext
+[8.098s] Creating /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo-control.egg-link (link to .)
+[8.101s] Installing propeller_tracker script to /home/rtk/rtk/install/robo_control/lib/robo_control
+[8.102s] 
+[8.102s] Installed /home/rtk/rtk/build/robo_control
+[8.107s] running symlink_data
+[8.109s] symbolically linking /home/rtk/rtk/build/robo_control/resource/robo_control -> /home/rtk/rtk/install/robo_control/share/ament_index/resource_index/packages
+[8.112s] symbolically linking /home/rtk/rtk/build/robo_control/package.xml -> /home/rtk/rtk/install/robo_control/share/robo_control
+[8.113s] symbolically linking /home/rtk/rtk/build/robo_control/launch/raspi_stack.launch.py -> /home/rtk/rtk/install/robo_control/share/robo_control/launch
+[8.296s] Invoked command in '/home/rtk/rtk/build/robo_control' returned '0': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rtk/rtk/build/robo_control/build --no-deps symlink_data --force

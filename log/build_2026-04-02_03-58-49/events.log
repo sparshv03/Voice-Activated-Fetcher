@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001240] (robo_control) JobQueued: {'identifier': 'robo_control', 'dependencies': OrderedDict()}
+[0.001478] (robo_vision) JobQueued: {'identifier': 'robo_vision', 'dependencies': OrderedDict()}
+[0.002599] (robo_control) JobStarted: {'identifier': 'robo_control'}
+[0.037314] (robo_vision) JobStarted: {'identifier': 'robo_vision'}
+[0.099173] (-) TimerEvent: {}
+[0.199866] (-) TimerEvent: {}
+[0.300593] (-) TimerEvent: {}
+[0.401320] (-) TimerEvent: {}
+[0.502121] (-) TimerEvent: {}
+[0.602710] (-) TimerEvent: {}
+[0.703338] (-) TimerEvent: {}
+[0.803928] (-) TimerEvent: {}
+[0.904707] (-) TimerEvent: {}
+[1.005789] (-) TimerEvent: {}
+[1.106547] (-) TimerEvent: {}
+[1.207257] (-) TimerEvent: {}
+[1.307917] (-) TimerEvent: {}
+[1.408632] (-) TimerEvent: {}
+[1.509288] (-) TimerEvent: {}
+[1.609867] (-) TimerEvent: {}
+[1.710510] (-) TimerEvent: {}
+[1.811217] (-) TimerEvent: {}
+[1.912070] (-) TimerEvent: {}
+[2.012735] (-) TimerEvent: {}
+[2.113504] (-) TimerEvent: {}
+[2.214199] (-) TimerEvent: {}
+[2.314853] (-) TimerEvent: {}
+[2.415562] (-) TimerEvent: {}
+[2.516170] (-) TimerEvent: {}
+[2.616814] (-) TimerEvent: {}
+[2.717512] (-) TimerEvent: {}
+[2.818266] (-) TimerEvent: {}
+[2.919585] (-) TimerEvent: {}
+[3.020581] (-) TimerEvent: {}
+[3.121933] (-) TimerEvent: {}
+[3.222565] (-) TimerEvent: {}
+[3.323199] (-) TimerEvent: {}
+[3.423865] (-) TimerEvent: {}
+[3.524654] (-) TimerEvent: {}
+[3.625324] (-) TimerEvent: {}
+[3.725946] (-) TimerEvent: {}
+[3.826604] (-) TimerEvent: {}
+[3.927264] (-) TimerEvent: {}
+[4.027903] (-) TimerEvent: {}
+[4.128630] (-) TimerEvent: {}
+[4.229353] (-) TimerEvent: {}
+[4.330175] (-) TimerEvent: {}
+[4.431749] (-) TimerEvent: {}
+[4.533312] (-) TimerEvent: {}
+[4.548441] (robo_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robo_vision', 'build', '--build-base', '/home/rtk/rtk/build/robo_vision/build', 'install', '--record', '/home/rtk/rtk/build/robo_vision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rtk/rtk/src/robo_vision', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rtk', 'SSH_CLIENT': '10.155.132.73 45452 22', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh', 'HOME': '/home/rtk', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-bae2901b-327a-465d-8026-13cc8dbfcf84.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/rtk/rtk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rtk', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/rtk/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rtk/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/home/rtk/.local/bin:/opt/ros/jazzy/bin:/home/rtk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-35f8df53315a15c4.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/rtk/.vscode-server/data/User/workspaceStorage/efdd66f392fc4260306619bd924c1406/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c7c88da3e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/rtk/rtk/install/robo_vision:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/rtk/rtk/build/robo_vision', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.155.132.73 45452 10.155.132.116 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rtk/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.566699] (robo_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robo_control', 'build', '--build-base', '/home/rtk/rtk/build/robo_control/build', 'install', '--record', '/home/rtk/rtk/build/robo_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rtk/rtk/src/robo_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rtk', 'SSH_CLIENT': '10.155.132.73 45452 22', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh', 'HOME': '/home/rtk', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-bae2901b-327a-465d-8026-13cc8dbfcf84.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/rtk/rtk/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rtk', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/rtk/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rtk/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rtk/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/home/rtk/.local/bin:/opt/ros/jazzy/bin:/home/rtk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/rtk/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-35f8df53315a15c4.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/rtk/.vscode-server/data/User/workspaceStorage/efdd66f392fc4260306619bd924c1406/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2c7c88da3e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/rtk/rtk/install/robo_vision:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/rtk/rtk/build/robo_control', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.155.132.73 45452 10.155.132.116 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.633459] (-) TimerEvent: {}
+[4.734356] (-) TimerEvent: {}
+[4.837547] (-) TimerEvent: {}
+[4.940192] (-) TimerEvent: {}
+[5.040796] (-) TimerEvent: {}
+[5.141504] (-) TimerEvent: {}
+[5.242140] (-) TimerEvent: {}
+[5.342768] (-) TimerEvent: {}
+[5.443452] (-) TimerEvent: {}
+[5.544110] (-) TimerEvent: {}
+[5.644744] (-) TimerEvent: {}
+[5.719774] (robo_vision) StdoutLine: {'line': b'running egg_info\n'}
+[5.745615] (-) TimerEvent: {}
+[5.747806] (robo_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.749294] (robo_control) StdoutLine: {'line': b'creating ../../build/robo_control/robo_control.egg-info\n'}
+[5.798811] (robo_vision) StdoutLine: {'line': b'writing ../../build/robo_vision/robo_vision.egg-info/PKG-INFO\n'}
+[5.799984] (robo_vision) StdoutLine: {'line': b'writing dependency_links to ../../build/robo_vision/robo_vision.egg-info/dependency_links.txt\n'}
+[5.801722] (robo_vision) StdoutLine: {'line': b'writing entry points to ../../build/robo_vision/robo_vision.egg-info/entry_points.txt\n'}
+[5.802859] (robo_vision) StdoutLine: {'line': b'writing requirements to ../../build/robo_vision/robo_vision.egg-info/requires.txt\n'}
+[5.804047] (robo_vision) StdoutLine: {'line': b'writing top-level names to ../../build/robo_vision/robo_vision.egg-info/top_level.txt\n'}
+[5.829172] (robo_control) StdoutLine: {'line': b'writing ../../build/robo_control/robo_control.egg-info/PKG-INFO\n'}
+[5.831172] (robo_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robo_control/robo_control.egg-info/dependency_links.txt\n'}
+[5.832838] (robo_control) StdoutLine: {'line': b'writing entry points to ../../build/robo_control/robo_control.egg-info/entry_points.txt\n'}
+[5.833489] (robo_control) StdoutLine: {'line': b'writing requirements to ../../build/robo_control/robo_control.egg-info/requires.txt\n'}
+[5.834730] (robo_control) StdoutLine: {'line': b'writing top-level names to ../../build/robo_control/robo_control.egg-info/top_level.txt\n'}
+[5.835385] (robo_control) StdoutLine: {'line': b"writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'\n"}
+[5.845761] (-) TimerEvent: {}
+[5.946465] (-) TimerEvent: {}
+[5.970380] (robo_vision) StdoutLine: {'line': b"reading manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'\n"}
+[5.974386] (robo_vision) StdoutLine: {'line': b"writing manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'\n"}
+[5.975953] (robo_vision) StdoutLine: {'line': b'running build\n'}
+[5.976605] (robo_vision) StdoutLine: {'line': b'running build_py\n'}
+[5.977581] (robo_vision) StdoutLine: {'line': b'running install\n'}
+[6.005192] (robo_vision) StdoutLine: {'line': b'running install_lib\n'}
+[6.006406] (robo_control) StdoutLine: {'line': b"reading manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'\n"}
+[6.009305] (robo_control) StdoutLine: {'line': b"writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'\n"}
+[6.010365] (robo_control) StdoutLine: {'line': b'running build\n'}
+[6.010981] (robo_control) StdoutLine: {'line': b'running build_py\n'}
+[6.012469] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/build/robo_control/build\n'}
+[6.013377] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/build/robo_control/build/lib\n'}
+[6.013888] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/build/robo_control/build/lib/robo_control\n'}
+[6.014567] (robo_control) StdoutLine: {'line': b'copying robo_control/__init__.py -> /home/rtk/rtk/build/robo_control/build/lib/robo_control\n'}
+[6.016211] (robo_control) StdoutLine: {'line': b'copying robo_control/chassis_control.py -> /home/rtk/rtk/build/robo_control/build/lib/robo_control\n'}
+[6.016796] (robo_control) StdoutLine: {'line': b'running install\n'}
+[6.043827] (robo_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.046637] (-) TimerEvent: {}
+[6.090691] (robo_vision) StdoutLine: {'line': b'running install_data\n'}
+[6.091862] (robo_vision) StdoutLine: {'line': b'copying package.xml -> /home/rtk/rtk/install/robo_vision/share/robo_vision\n'}
+[6.092702] (robo_vision) StdoutLine: {'line': b'copying launch/laptop_inference.launch.py -> /home/rtk/rtk/install/robo_vision/share/robo_vision/launch\n'}
+[6.093810] (robo_vision) StdoutLine: {'line': b'copying launch/pi_camera_stream.launch.py -> /home/rtk/rtk/install/robo_vision/share/robo_vision/launch\n'}
+[6.094760] (robo_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.123589] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control\n'}
+[6.124615] (robo_control) StdoutLine: {'line': b'copying /home/rtk/rtk/build/robo_control/build/lib/robo_control/__init__.py -> /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control\n'}
+[6.125644] (robo_control) StdoutLine: {'line': b'copying /home/rtk/rtk/build/robo_control/build/lib/robo_control/chassis_control.py -> /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control\n'}
+[6.127827] (robo_control) StdoutLine: {'line': b'byte-compiling /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control/__init__.py to __init__.cpython-312.pyc\n'}
+[6.129379] (robo_control) StdoutLine: {'line': b'byte-compiling /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control/chassis_control.py to chassis_control.cpython-312.pyc\n'}
+[6.141112] (robo_control) StdoutLine: {'line': b'running install_data\n'}
+[6.142135] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/install/robo_control/share/ament_index\n'}
+[6.142733] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/install/robo_control/share/ament_index/resource_index\n'}
+[6.144228] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/install/robo_control/share/ament_index/resource_index/packages\n'}
+[6.144859] (robo_control) StdoutLine: {'line': b'copying resource/robo_control -> /home/rtk/rtk/install/robo_control/share/ament_index/resource_index/packages\n'}
+[6.145441] (robo_control) StdoutLine: {'line': b'copying package.xml -> /home/rtk/rtk/install/robo_control/share/robo_control\n'}
+[6.147001] (robo_control) StdoutLine: {'line': b'creating /home/rtk/rtk/install/robo_control/share/robo_control/launch\n'}
+[6.147644] (-) TimerEvent: {}
+[6.149520] (robo_control) StdoutLine: {'line': b'copying launch/raspi_stack.launch.py -> /home/rtk/rtk/install/robo_control/share/robo_control/launch\n'}
+[6.150251] (robo_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.183572] (robo_vision) StdoutLine: {'line': b"removing '/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.185426] (robo_vision) StdoutLine: {'line': b'Copying ../../build/robo_vision/robo_vision.egg-info to /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info\n'}
+[6.191433] (robo_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[6.233576] (robo_control) StdoutLine: {'line': b'Copying ../../build/robo_control/robo_control.egg-info to /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info\n'}
+[6.239400] (robo_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.247946] (-) TimerEvent: {}
+[6.348686] (-) TimerEvent: {}
+[6.449474] (-) TimerEvent: {}
+[6.552726] (-) TimerEvent: {}
+[6.653474] (-) TimerEvent: {}
+[6.755283] (-) TimerEvent: {}
+[6.857300] (-) TimerEvent: {}
+[6.885533] (robo_vision) StdoutLine: {'line': b'Installing camera_stream script to /home/rtk/rtk/install/robo_vision/lib/robo_vision\n'}
+[6.886528] (robo_vision) StdoutLine: {'line': b'Installing object_det_remote script to /home/rtk/rtk/install/robo_vision/lib/robo_vision\n'}
+[6.888892] (robo_vision) StdoutLine: {'line': b"writing list of installed files to '/home/rtk/rtk/build/robo_vision/install.log'\n"}
+[6.957507] (-) TimerEvent: {}
+[6.985265] (robo_control) StdoutLine: {'line': b'Installing propeller_tracker script to /home/rtk/rtk/install/robo_control/lib/robo_control\n'}
+[6.988138] (robo_control) StdoutLine: {'line': b"writing list of installed files to '/home/rtk/rtk/build/robo_control/install.log'\n"}
+[7.059058] (-) TimerEvent: {}
+[7.067919] (robo_vision) CommandEnded: {'returncode': 0}
+[7.140924] (robo_vision) JobEnded: {'identifier': 'robo_vision', 'rc': 0}
+[7.159202] (-) TimerEvent: {}
+[7.164918] (robo_control) CommandEnded: {'returncode': 0}
+[7.192273] (robo_control) JobEnded: {'identifier': 'robo_control', 'rc': 0}
+[7.195222] (-) EventReactorShutdown: {}

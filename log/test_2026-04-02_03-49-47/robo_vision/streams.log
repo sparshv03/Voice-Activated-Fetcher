@@ -1,0 +1,606 @@
+[0.928s] Invoking command in '/home/rtk/rtk/src/robo_vision': AMENT_PREFIX_PATH=/home/rtk/rtk/install/robo_vision:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rtk/rtk/build/robo_vision/pytest.xml --junit-prefix=robo_vision -o cache_dir=/home/rtk/rtk/build/robo_vision/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.533s] [1m============================= test session starts ==============================[0m
+[2.534s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.552s] cachedir: /home/rtk/rtk/build/robo_vision/.pytest_cache
+[2.553s] rootdir: /home/rtk/rtk/src/robo_vision
+[2.553s] plugins: ament-lint-0.17.4, ament-pep257-0.17.4, launch-testing-3.4.10, ament-copyright-0.17.4, launch-testing-ros-0.26.11, ament-flake8-0.17.4, ament-xmllint-0.17.4, colcon-core-0.20.1, cov-4.1.0
+[2.957s] [1mcollecting ... [0m[1m
+[2.958s] collected 3 items                                                              [0m
+[2.959s] 
+[2.981s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[3.721s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[3.857s] test/test_pep257.py [31mF[0m[31m                                                    [100%][0m
+[3.858s] 
+[3.859s] =================================== FAILURES ===================================
+[3.859s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[3.862s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[4.007s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[4.008s] [1m[31mE   AssertionError: Found 105 code style errors / warnings:[0m
+[4.011s] [1m[31mE     ./robo_vision/camera_stream_node.py:12:26: Q000 Double quotes found but single quotes preferred[0m
+[4.015s] [1m[31mE     ./robo_vision/camera_stream_node.py:14:32: Q000 Double quotes found but single quotes preferred[0m
+[4.015s] [1m[31mE     ./robo_vision/camera_stream_node.py:15:32: Q000 Double quotes found but single quotes preferred[0m
+[4.016s] [1m[31mE     ./robo_vision/camera_stream_node.py:16:32: Q000 Double quotes found but single quotes preferred[0m
+[4.018s] [1m[31mE     ./robo_vision/camera_stream_node.py:17:32: Q000 Double quotes found but single quotes preferred[0m
+[4.018s] [1m[31mE     ./robo_vision/camera_stream_node.py:17:44: Q000 Double quotes found but single quotes preferred[0m
+[4.019s] [1m[31mE     ./robo_vision/camera_stream_node.py:18:32: Q000 Double quotes found but single quotes preferred[0m
+[4.021s] [1m[31mE     ./robo_vision/camera_stream_node.py:18:47: Q000 Double quotes found but single quotes preferred[0m
+[4.021s] [1m[31mE     ./robo_vision/camera_stream_node.py:19:32: Q000 Double quotes found but single quotes preferred[0m
+[4.022s] [1m[31mE     ./robo_vision/camera_stream_node.py:22:32: Q000 Double quotes found but single quotes preferred[0m
+[4.022s] [1m[31mE     ./robo_vision/camera_stream_node.py:25:32: Q000 Double quotes found but single quotes preferred[0m
+[4.023s] [1m[31mE     ./robo_vision/camera_stream_node.py:28:32: Q000 Double quotes found but single quotes preferred[0m
+[4.024s] [1m[31mE     ./robo_vision/camera_stream_node.py:30:44: Q000 Double quotes found but single quotes preferred[0m
+[4.025s] [1m[31mE     ./robo_vision/camera_stream_node.py:32:32: Q000 Double quotes found but single quotes preferred[0m
+[4.026s] [1m[31mE     ./robo_vision/camera_stream_node.py:35:32: Q000 Double quotes found but single quotes preferred[0m
+[4.026s] [1m[31mE     ./robo_vision/camera_stream_node.py:42:37: Q000 Double quotes found but single quotes preferred[0m
+[4.027s] [1m[31mE     ./robo_vision/camera_stream_node.py:43:32: Q000 Double quotes found but single quotes preferred[0m
+[4.027s] [1m[31mE     ./robo_vision/camera_stream_node.py:60:13: Q000 Double quotes found but single quotes preferred[0m
+[4.028s] [1m[31mE     ./robo_vision/camera_stream_node.py:62:13: Q000 Double quotes found but single quotes preferred[0m
+[4.029s] [1m[31mE     ./robo_vision/camera_stream_node.py:71:43: Q000 Double quotes found but single quotes preferred[0m
+[4.030s] [1m[31mE     ./robo_vision/camera_stream_node.py:78:13: Q000 Double quotes found but single quotes preferred[0m
+[4.030s] [1m[31mE     ./robo_vision/camera_stream_node.py:86:43: Q000 Double quotes found but single quotes preferred[0m
+[4.031s] [1m[31mE     ./robo_vision/camera_stream_node.py:92:22: Q000 Double quotes found but single quotes preferred[0m
+[4.032s] [1m[31mE     ./robo_vision/camera_stream_node.py:100:37: Q000 Double quotes found but single quotes preferred[0m
+[4.033s] [1m[31mE     ./robo_vision/camera_stream_node.py:103:26: Q000 Double quotes found but single quotes preferred[0m
+[4.034s] [1m[31mE     ./robo_vision/camera_stream_node.py:123:16: Q000 Double quotes found but single quotes preferred[0m
+[4.035s] [1m[31mE     ./robo_vision/chassis_obj_det.py:17:18: Q000 Double quotes found but single quotes preferred[0m
+[4.037s] [1m[31mE     ./robo_vision/chassis_obj_det.py:17:28: Q000 Double quotes found but single quotes preferred[0m
+[4.038s] [1m[31mE     ./robo_vision/chassis_obj_det.py:17:35: Q000 Double quotes found but single quotes preferred[0m
+[4.039s] [1m[31mE     ./robo_vision/chassis_obj_det.py:22:26: Q000 Double quotes found but single quotes preferred[0m
+[4.040s] [1m[31mE     ./robo_vision/chassis_obj_det.py:24:32: Q000 Double quotes found but single quotes preferred[0m
+[4.042s] [1m[31mE     ./robo_vision/chassis_obj_det.py:24:48: Q000 Double quotes found but single quotes preferred[0m
+[4.044s] [1m[31mE     ./robo_vision/chassis_obj_det.py:25:32: Q000 Double quotes found but single quotes preferred[0m
+[4.045s] [1m[31mE     ./robo_vision/chassis_obj_det.py:25:47: Q000 Double quotes found but single quotes preferred[0m
+[4.046s] [1m[31mE     ./robo_vision/chassis_obj_det.py:26:32: Q000 Double quotes found but single quotes preferred[0m
+[4.047s] [1m[31mE     ./robo_vision/chassis_obj_det.py:29:32: Q000 Double quotes found but single quotes preferred[0m
+[4.049s] [1m[31mE     ./robo_vision/chassis_obj_det.py:32:32: Q000 Double quotes found but single quotes preferred[0m
+[4.051s] [1m[31mE     ./robo_vision/chassis_obj_det.py:35:32: Q000 Double quotes found but single quotes preferred[0m
+[4.053s] [1m[31mE     ./robo_vision/chassis_obj_det.py:42:33: Q000 Double quotes found but single quotes preferred[0m
+[4.055s] [1m[31mE     ./robo_vision/chassis_obj_det.py:44:58: Q000 Double quotes found but single quotes preferred[0m
+[4.056s] [1m[31mE     ./robo_vision/chassis_obj_det.py:45:60: Q000 Double quotes found but single quotes preferred[0m
+[4.058s] [1m[31mE     ./robo_vision/chassis_obj_det.py:55:29: Q000 Double quotes found but single quotes preferred[0m
+[4.060s] [1m[31mE     ./robo_vision/chassis_obj_det.py:56:30: Q000 Double quotes found but single quotes preferred[0m
+[4.061s] [1m[31mE     ./robo_vision/chassis_obj_det.py:65:100: E501 line too long (130 > 99 characters)[0m
+[4.063s] [1m[31mE     ./robo_vision/chassis_obj_det.py:75:43: Q000 Double quotes found but single quotes preferred[0m
+[4.065s] [1m[31mE     ./robo_vision/chassis_obj_det.py:89:13: Q000 Double quotes found but single quotes preferred[0m
+[4.066s] [1m[31mE     ./robo_vision/chassis_obj_det.py:97:23: Q000 Double quotes found but single quotes preferred[0m
+[4.068s] [1m[31mE     ./robo_vision/chassis_obj_det.py:98:39: Q000 Double quotes found but single quotes preferred[0m
+[4.070s] [1m[31mE     ./robo_vision/chassis_obj_det.py:99:41: Q000 Double quotes found but single quotes preferred[0m
+[4.072s] [1m[31mE     ./robo_vision/chassis_obj_det.py:104:29: Q000 Double quotes found but single quotes preferred[0m
+[4.074s] [1m[31mE     ./robo_vision/chassis_obj_det.py:105:29: Q000 Double quotes found but single quotes preferred[0m
+[4.076s] [1m[31mE     ./robo_vision/chassis_obj_det.py:120:17: Q000 Double quotes found but single quotes preferred[0m
+[4.077s] [1m[31mE     ./robo_vision/chassis_obj_det.py:146:17: Q000 Double quotes found but single quotes preferred[0m
+[4.078s] [1m[31mE     ./robo_vision/chassis_obj_det.py:159:21: Q000 Double quotes found but single quotes preferred[0m
+[4.079s] [1m[31mE     ./robo_vision/chassis_obj_det.py:168:24: Q000 Double quotes found but single quotes preferred[0m
+[4.081s] [1m[31mE     ./robo_vision/chassis_obj_det.py:170:27: Q000 Double quotes found but single quotes preferred[0m
+[4.082s] [1m[31mE     ./robo_vision/chassis_obj_det.py:195:16: Q000 Double quotes found but single quotes preferred[0m
+[4.084s] [1m[31mE     ./robo_vision/chassis_obj_det.py:196:11: W292 no newline at end of file[0m
+[4.085s] [1m[31mE     ./robo_vision/perception_utils.py:2:1: I100 Import statements are in the wrong order. 'import json' should be before 'from ultralytics import YOLO' and in a different group.[0m
+[4.087s] [1m[31mE     ./robo_vision/perception_utils.py:2:1: I201 Missing newline between import groups. 'import json' is identified as Stdlib and 'from ultralytics import YOLO' is identified as Third Party.[0m
+[4.089s] [1m[31mE     ./robo_vision/perception_utils.py:2:1: F401 'json' imported but unused[0m
+[4.090s] [1m[31mE     ./robo_vision/perception_utils.py:3:1: I201 Missing newline between import groups. 'import numpy' is identified as Third Party and 'import json' is identified as Stdlib.[0m
+[4.091s] [1m[31mE     ./robo_vision/perception_utils.py:3:1: F401 'numpy as np' imported but unused[0m
+[4.092s] [1m[31mE     ./robo_vision/perception_utils.py:6:14: Q000 Double quotes found but single quotes preferred[0m
+[4.094s] [1m[31mE     ./robo_vision/perception_utils.py:33:1: E302 expected 2 blank lines, found 1[0m
+[4.095s] [1m[31mE     ./robo_vision/perception_utils.py:39:12: E221 multiple spaces before operator[0m
+[4.096s] [1m[31mE     ./robo_vision/perception_utils.py:43:11: E221 multiple spaces before operator[0m
+[4.098s] [1m[31mE     ./robo_vision/perception_utils.py:44:11: E221 multiple spaces before operator[0m
+[4.099s] [1m[31mE     ./robo_vision/perception_utils.py:46:27: W291 trailing whitespace[0m
+[4.101s] [1m[31mE     ./robo_vision/perception_utils.py:49:9: E303 too many blank lines (2)[0m
+[4.102s] [1m[31mE     ./robo_vision/perception_utils.py:50:13: Q000 Double quotes found but single quotes preferred[0m
+[4.104s] [1m[31mE     ./robo_vision/perception_utils.py:51:13: Q000 Double quotes found but single quotes preferred[0m
+[4.106s] [1m[31mE     ./robo_vision/perception_utils.py:52:13: Q000 Double quotes found but single quotes preferred[0m
+[4.107s] [1m[31mE     ./robo_vision/perception_utils.py:53:13: Q000 Double quotes found but single quotes preferred[0m
+[4.109s] [1m[31mE     ./robo_vision/perception_utils.py:54:13: Q000 Double quotes found but single quotes preferred[0m
+[4.110s] [1m[31mE     ./robo_vision/perception_utils.py:55:13: Q000 Double quotes found but single quotes preferred[0m
+[4.112s] [1m[31mE     ./robo_vision/perception_utils.py:56:13: Q000 Double quotes found but single quotes preferred[0m
+[4.114s] [1m[31mE     ./robo_vision/perception_utils.py:69:50: Q000 Double quotes found but single quotes preferred[0m
+[4.116s] [1m[31mE     ./robo_vision/perception_utils.py:74:44: Q000 Double quotes found but single quotes preferred[0m
+[4.117s] [1m[31mE     ./robo_vision/perception_utils.py:96:1: W293 blank line contains whitespace[0m
+[4.119s] [1m[31mE     ./robo_vision/perception_utils.py:102:1: E302 expected 2 blank lines, found 1[0m
+[4.120s] [1m[31mE     ./robo_vision/perception_utils.py:103:1: W293 blank line contains whitespace[0m
+[4.122s] [1m[31mE     ./robo_vision/perception_utils.py:105:17: Q000 Double quotes found but single quotes preferred[0m
+[4.124s] [1m[31mE     ./robo_vision/perception_utils.py:108:17: Q000 Double quotes found but single quotes preferred[0m
+[4.125s] [1m[31mE     ./robo_vision/perception_utils.py:108:38: Q000 Double quotes found but single quotes preferred[0m
+[4.127s] [1m[31mE     ./robo_vision/perception_utils.py:109:17: Q000 Double quotes found but single quotes preferred[0m
+[4.129s] [1m[31mE     ./robo_vision/perception_utils.py:109:38: Q000 Double quotes found but single quotes preferred[0m
+[4.130s] [1m[31mE     ./robo_vision/perception_utils.py:110:17: Q000 Double quotes found but single quotes preferred[0m
+[4.132s] [1m[31mE     ./robo_vision/perception_utils.py:110:38: Q000 Double quotes found but single quotes preferred[0m
+[4.134s] [1m[31mE     ./robo_vision/perception_utils.py:111:17: Q000 Double quotes found but single quotes preferred[0m
+[4.135s] [1m[31mE     ./robo_vision/perception_utils.py:111:38: Q000 Double quotes found but single quotes preferred[0m
+[4.137s] [1m[31mE     ./robo_vision/perception_utils.py:117:25: Q000 Double quotes found but single quotes preferred[0m
+[4.139s] [1m[31mE     ./robo_vision/perception_utils.py:118:22: Q000 Double quotes found but single quotes preferred[0m
+[4.140s] [1m[31mE     ./robo_vision/perception_utils.py:120:24: Q000 Double quotes found but single quotes preferred[0m
+[4.142s] [1m[31mE     ./robo_vision/perception_utils.py:122:24: Q000 Double quotes found but single quotes preferred[0m
+[4.143s] [1m[31mE     ./robo_vision/perception_utils.py:129:41: Q000 Double quotes found but single quotes preferred[0m
+[4.144s] [1m[31mE     ./robo_vision/perception_utils.py:132:9: Q000 Double quotes found but single quotes preferred[0m
+[4.146s] [1m[31mE     ./robo_vision/perception_utils.py:133:9: Q000 Double quotes found but single quotes preferred[0m
+[4.148s] [1m[31mE     ./robo_vision/perception_utils.py:133:25: Q000 Double quotes found but single quotes preferred[0m
+[4.150s] [1m[31mE     ./robo_vision/perception_utils.py:134:9: Q000 Double quotes found but single quotes preferred[0m
+[4.152s] [1m[31mE     ./robo_vision/perception_utils.py:135:9: Q000 Double quotes found but single quotes preferred[0m
+[4.153s] [1m[31mE     ./robo_vision/perception_utils.py:136:9: Q000 Double quotes found but single quotes preferred[0m
+[4.155s] [1m[31mE     ./robo_vision/perception_utils.py:137:9: Q000 Double quotes found but single quotes preferred[0m
+[4.157s] [1m[31mE     ./robo_vision/perception_utils.py:137:30: Q000 Double quotes found but single quotes preferred[0m
+[4.158s] [1m[31mE     ./robo_vision/perception_utils.py:138:6: W292 no newline at end of file[0m
+[4.160s] [1m[31mE   assert 1 == 0[0m
+[4.161s] ----------------------------- Captured stdout call -----------------------------
+[4.162s] 
+[4.163s] ./robo_vision/camera_stream_node.py:12:26: Q000 Double quotes found but single quotes preferred
+[4.165s]         super().__init__("camera_stream")
+[4.166s]                          ^
+[4.168s] 
+[4.170s] ./robo_vision/camera_stream_node.py:14:32: Q000 Double quotes found but single quotes preferred
+[4.171s]         self.declare_parameter("camera_index", 0)
+[4.172s]                                ^
+[4.173s] 
+[4.175s] ./robo_vision/camera_stream_node.py:15:32: Q000 Double quotes found but single quotes preferred
+[4.175s]         self.declare_parameter("publish_hz", 20.0)
+[4.177s]                                ^
+[4.179s] 
+[4.180s] ./robo_vision/camera_stream_node.py:16:32: Q000 Double quotes found but single quotes preferred
+[4.182s]         self.declare_parameter("jpeg_quality", 70)
+[4.184s]                                ^
+[4.185s] 
+[4.187s] ./robo_vision/camera_stream_node.py:17:32: Q000 Double quotes found but single quotes preferred
+[4.189s]         self.declare_parameter("frame_id", "camera")
+[4.191s]                                ^
+[4.193s] 
+[4.194s] ./robo_vision/camera_stream_node.py:17:44: Q000 Double quotes found but single quotes preferred
+[4.196s]         self.declare_parameter("frame_id", "camera")
+[4.197s]                                            ^
+[4.199s] 
+[4.200s] ./robo_vision/camera_stream_node.py:18:32: Q000 Double quotes found but single quotes preferred
+[4.201s]         self.declare_parameter("image_topic", "camera/image/compressed")
+[4.202s]                                ^
+[4.203s] 
+[4.203s] ./robo_vision/camera_stream_node.py:18:47: Q000 Double quotes found but single quotes preferred
+[4.205s]         self.declare_parameter("image_topic", "camera/image/compressed")
+[4.206s]                                               ^
+[4.207s] 
+[4.208s] ./robo_vision/camera_stream_node.py:19:32: Q000 Double quotes found but single quotes preferred
+[4.209s]         self.declare_parameter("flip_horizontal", False)
+[4.210s]                                ^
+[4.211s] 
+[4.212s] ./robo_vision/camera_stream_node.py:22:32: Q000 Double quotes found but single quotes preferred
+[4.213s]             self.get_parameter("camera_index").get_parameter_value().integer_value
+[4.214s]                                ^
+[4.215s] 
+[4.216s] ./robo_vision/camera_stream_node.py:25:32: Q000 Double quotes found but single quotes preferred
+[4.217s]             self.get_parameter("publish_hz").get_parameter_value().double_value
+[4.218s]                                ^
+[4.220s] 
+[4.221s] ./robo_vision/camera_stream_node.py:28:32: Q000 Double quotes found but single quotes preferred
+[4.222s]             self.get_parameter("jpeg_quality").get_parameter_value().integer_value
+[4.223s]                                ^
+[4.224s] 
+[4.225s] ./robo_vision/camera_stream_node.py:30:44: Q000 Double quotes found but single quotes preferred
+[4.225s]         self.frame_id = self.get_parameter("frame_id").get_parameter_value().string_value
+[4.226s]                                            ^
+[4.227s] 
+[4.228s] ./robo_vision/camera_stream_node.py:32:32: Q000 Double quotes found but single quotes preferred
+[4.229s]             self.get_parameter("image_topic").get_parameter_value().string_value
+[4.230s]                                ^
+[4.231s] 
+[4.232s] ./robo_vision/camera_stream_node.py:35:32: Q000 Double quotes found but single quotes preferred
+[4.233s]             self.get_parameter("flip_horizontal").get_parameter_value().bool_value
+[4.234s]                                ^
+[4.236s] 
+[4.238s] ./robo_vision/camera_stream_node.py:42:37: Q000 Double quotes found but single quotes preferred
+[4.240s]             self.get_logger().error(f"Failed to open camera index {self.camera_index}.")
+[4.241s]                                     ^
+[4.244s] 
+[4.246s] ./robo_vision/camera_stream_node.py:43:32: Q000 Double quotes found but single quotes preferred
+[4.247s]             raise RuntimeError("Camera open failed")
+[4.249s]                                ^
+[4.251s] 
+[4.253s] ./robo_vision/camera_stream_node.py:60:13: Q000 Double quotes found but single quotes preferred
+[4.255s]             "Started camera_stream. "
+[4.256s]             ^
+[4.258s] 
+[4.260s] ./robo_vision/camera_stream_node.py:62:13: Q000 Double quotes found but single quotes preferred
+[4.261s]             f"rate={self.publish_hz:.1f} Hz, jpeg_quality={self.jpeg_quality}"
+[4.262s]             ^
+[4.263s] 
+[4.265s] ./robo_vision/camera_stream_node.py:71:43: Q000 Double quotes found but single quotes preferred
+[4.266s]                 self.get_logger().warning("Camera frame grab failed.")
+[4.268s]                                           ^
+[4.270s] 
+[4.271s] ./robo_vision/camera_stream_node.py:78:13: Q000 Double quotes found but single quotes preferred
+[4.273s]             ".jpg",
+[4.274s]             ^
+[4.275s] 
+[4.277s] ./robo_vision/camera_stream_node.py:86:43: Q000 Double quotes found but single quotes preferred
+[4.279s]                 self.get_logger().warning("JPEG encoding failed.")
+[4.281s]                                           ^
+[4.282s] 
+[4.285s] ./robo_vision/camera_stream_node.py:92:22: Q000 Double quotes found but single quotes preferred
+[4.286s]         msg.format = "jpeg"
+[4.287s]                      ^
+[4.289s] 
+[4.290s] ./robo_vision/camera_stream_node.py:100:37: Q000 Double quotes found but single quotes preferred
+[4.292s]             self.get_logger().debug(f"Streaming FPS: {fps:.1f}")
+[4.294s]                                     ^
+[4.295s] 
+[4.297s] ./robo_vision/camera_stream_node.py:103:26: Q000 Double quotes found but single quotes preferred
+[4.299s]         if hasattr(self, "cap") and self.cap is not None:
+[4.301s]                          ^
+[4.303s] 
+[4.304s] ./robo_vision/camera_stream_node.py:123:16: Q000 Double quotes found but single quotes preferred
+[4.306s] if __name__ == "__main__":
+[4.307s]                ^
+[4.309s] 
+[4.310s] ./robo_vision/chassis_obj_det.py:17:18: Q000 Double quotes found but single quotes preferred
+[4.311s] VALID_CLASSES = ["bottle", "cup", "sports ball"]
+[4.312s]                  ^
+[4.314s] 
+[4.315s] ./robo_vision/chassis_obj_det.py:17:28: Q000 Double quotes found but single quotes preferred
+[4.316s] VALID_CLASSES = ["bottle", "cup", "sports ball"]
+[4.317s]                            ^
+[4.318s] 
+[4.320s] ./robo_vision/chassis_obj_det.py:17:35: Q000 Double quotes found but single quotes preferred
+[4.321s] VALID_CLASSES = ["bottle", "cup", "sports ball"]
+[4.323s]                                   ^
+[4.324s] 
+[4.325s] ./robo_vision/chassis_obj_det.py:22:26: Q000 Double quotes found but single quotes preferred
+[4.326s]         super().__init__("objectdet_remote")
+[4.327s]                          ^
+[4.328s] 
+[4.330s] ./robo_vision/chassis_obj_det.py:24:32: Q000 Double quotes found but single quotes preferred
+[4.331s]         self.declare_parameter("target_class", "bottle")
+[4.332s]                                ^
+[4.333s] 
+[4.334s] ./robo_vision/chassis_obj_det.py:24:48: Q000 Double quotes found but single quotes preferred
+[4.335s]         self.declare_parameter("target_class", "bottle")
+[4.336s]                                                ^
+[4.336s] 
+[4.337s] ./robo_vision/chassis_obj_det.py:25:32: Q000 Double quotes found but single quotes preferred
+[4.339s]         self.declare_parameter("image_topic", "camera/image/compressed")
+[4.340s]                                ^
+[4.341s] 
+[4.342s] ./robo_vision/chassis_obj_det.py:25:47: Q000 Double quotes found but single quotes preferred
+[4.343s]         self.declare_parameter("image_topic", "camera/image/compressed")
+[4.344s]                                               ^
+[4.345s] 
+[4.346s] ./robo_vision/chassis_obj_det.py:26:32: Q000 Double quotes found but single quotes preferred
+[4.347s]         self.declare_parameter("show_window", True)
+[4.348s]                                ^
+[4.349s] 
+[4.350s] ./robo_vision/chassis_obj_det.py:29:32: Q000 Double quotes found but single quotes preferred
+[4.351s]             self.get_parameter("target_class").get_parameter_value().string_value
+[4.352s]                                ^
+[4.353s] 
+[4.354s] ./robo_vision/chassis_obj_det.py:32:32: Q000 Double quotes found but single quotes preferred
+[4.355s]             self.get_parameter("image_topic").get_parameter_value().string_value
+[4.356s]                                ^
+[4.357s] 
+[4.358s] ./robo_vision/chassis_obj_det.py:35:32: Q000 Double quotes found but single quotes preferred
+[4.359s]             self.get_parameter("show_window").get_parameter_value().bool_value
+[4.360s]                                ^
+[4.360s] 
+[4.362s] ./robo_vision/chassis_obj_det.py:42:33: Q000 Double quotes found but single quotes preferred
+[4.362s]             self.target_class = "bottle"
+[4.363s]                                 ^
+[4.364s] 
+[4.365s] ./robo_vision/chassis_obj_det.py:44:58: Q000 Double quotes found but single quotes preferred
+[4.366s]         self.offset_pub = self.create_publisher(Float32, "object_offset", 10)
+[4.367s]                                                          ^
+[4.368s] 
+[4.369s] ./robo_vision/chassis_obj_det.py:45:60: Q000 Double quotes found but single quotes preferred
+[4.370s]         self.distance_pub = self.create_publisher(Float32, "object_distance", 10)
+[4.371s]                                                            ^
+[4.372s] 
+[4.373s] ./robo_vision/chassis_obj_det.py:55:29: Q000 Double quotes found but single quotes preferred
+[4.374s]             cv2.namedWindow("YOLO Detection", cv2.WINDOW_NORMAL)
+[4.375s]                             ^
+[4.376s] 
+[4.377s] ./robo_vision/chassis_obj_det.py:56:30: Q000 Double quotes found but single quotes preferred
+[4.378s]             cv2.resizeWindow("YOLO Detection", 1280, 720)
+[4.379s]                              ^
+[4.379s] 
+[4.380s] ./robo_vision/chassis_obj_det.py:65:100: E501 line too long (130 > 99 characters)
+[4.381s]             f"Started objectdet_remote. Target='{self.target_class}', image_topic='{self.image_topic}', window={self.show_window}"
+[4.382s]                                                                                                    ^
+[4.383s] 
+[4.384s] ./robo_vision/chassis_obj_det.py:75:43: Q000 Double quotes found but single quotes preferred
+[4.385s]                 self.get_logger().warning("Failed to decode compressed frame.")
+[4.386s]                                           ^
+[4.387s] 
+[4.388s] ./robo_vision/chassis_obj_det.py:89:13: Q000 Double quotes found but single quotes preferred
+[4.389s]             f"TARGET: {self.target_class}",
+[4.390s]             ^
+[4.391s] 
+[4.392s] ./robo_vision/chassis_obj_det.py:97:23: Q000 Double quotes found but single quotes preferred
+[4.393s]         if perception["found"] and target is not None:
+[4.395s]                       ^
+[4.397s] 
+[4.398s] ./robo_vision/chassis_obj_det.py:98:39: Q000 Double quotes found but single quotes preferred
+[4.399s]             offset = float(perception["offset_x"])
+[4.402s]                                       ^
+[4.404s] 
+[4.406s] ./robo_vision/chassis_obj_det.py:99:41: Q000 Double quotes found but single quotes preferred
+[4.406s]             distance = float(perception["distance"])
+[4.409s]                                         ^
+[4.410s] 
+[4.411s] ./robo_vision/chassis_obj_det.py:104:29: Q000 Double quotes found but single quotes preferred
+[4.413s]             cx = int(target["cx_pixel"])
+[4.415s]                             ^
+[4.416s] 
+[4.418s] ./robo_vision/chassis_obj_det.py:105:29: Q000 Double quotes found but single quotes preferred
+[4.420s]             cy = int(target["cy_pixel"])
+[4.421s]                             ^
+[4.422s] 
+[4.423s] ./robo_vision/chassis_obj_det.py:120:17: Q000 Double quotes found but single quotes preferred
+[4.425s]                 f"Distance: {distance:.2f}  Offset: {offset:.3f}",
+[4.428s]                 ^
+[4.429s] 
+[4.431s] ./robo_vision/chassis_obj_det.py:146:17: Q000 Double quotes found but single quotes preferred
+[4.432s]                 f"SEARCHING FOR {self.target_class.upper()}...",
+[4.433s]                 ^
+[4.435s] 
+[4.438s] ./robo_vision/chassis_obj_det.py:159:21: Q000 Double quotes found but single quotes preferred
+[4.440s]                     f"FPS: {fps:.1f}",
+[4.440s]                     ^
+[4.442s] 
+[4.445s] ./robo_vision/chassis_obj_det.py:168:24: Q000 Double quotes found but single quotes preferred
+[4.446s]             cv2.imshow("YOLO Detection", display)
+[4.447s]                        ^
+[4.447s] 
+[4.448s] ./robo_vision/chassis_obj_det.py:170:27: Q000 Double quotes found but single quotes preferred
+[4.449s]             if key == ord("q"):
+[4.449s]                           ^
+[4.450s] 
+[4.451s] ./robo_vision/chassis_obj_det.py:195:16: Q000 Double quotes found but single quotes preferred
+[4.452s] if __name__ == "__main__":
+[4.453s]                ^
+[4.454s] 
+[4.455s] ./robo_vision/chassis_obj_det.py:196:11: W292 no newline at end of file
+[4.457s]     main()          ^
+[4.458s] 
+[4.459s] ./robo_vision/perception_utils.py:2:1: I100 Import statements are in the wrong order. 'import json' should be before 'from ultralytics import YOLO' and in a different group.
+[4.460s] import json
+[4.461s] ^
+[4.462s] 
+[4.462s] ./robo_vision/perception_utils.py:2:1: I201 Missing newline between import groups. 'import json' is identified as Stdlib and 'from ultralytics import YOLO' is identified as Third Party.
+[4.463s] import json
+[4.464s] ^
+[4.465s] 
+[4.466s] ./robo_vision/perception_utils.py:2:1: F401 'json' imported but unused
+[4.466s] import json
+[4.467s] ^
+[4.468s] 
+[4.469s] ./robo_vision/perception_utils.py:3:1: I201 Missing newline between import groups. 'import numpy' is identified as Third Party and 'import json' is identified as Stdlib.
+[4.470s] import numpy as np
+[4.470s] ^
+[4.471s] 
+[4.471s] ./robo_vision/perception_utils.py:3:1: F401 'numpy as np' imported but unused
+[4.472s] import numpy as np
+[4.472s] ^
+[4.473s] 
+[4.473s] ./robo_vision/perception_utils.py:6:14: Q000 Double quotes found but single quotes preferred
+[4.474s] model = YOLO("yolov8n.pt")
+[4.475s]              ^
+[4.475s] 
+[4.476s] ./robo_vision/perception_utils.py:33:1: E302 expected 2 blank lines, found 1
+[4.476s] def detect(frame):
+[4.477s] ^
+[4.477s] 
+[4.477s] ./robo_vision/perception_utils.py:39:12: E221 multiple spaces before operator
+[4.478s]         cls  = int(box.cls.item())
+[4.479s]            ^
+[4.479s] 
+[4.480s] ./robo_vision/perception_utils.py:43:11: E221 multiple spaces before operator
+[4.480s]         cx    = (x1 + x2) / 2
+[4.481s]           ^
+[4.481s] 
+[4.482s] ./robo_vision/perception_utils.py:44:11: E221 multiple spaces before operator
+[4.482s]         cy    = (y1 + y2) / 2
+[4.483s]           ^
+[4.483s] 
+[4.484s] ./robo_vision/perception_utils.py:46:27: W291 trailing whitespace
+[4.484s]         height = (y2 - y1)   
+[4.485s]                           ^
+[4.486s] 
+[4.486s] ./robo_vision/perception_utils.py:49:9: E303 too many blank lines (2)
+[4.487s]         detections.append({
+[4.487s]         ^
+[4.487s] 
+[4.488s] ./robo_vision/perception_utils.py:50:13: Q000 Double quotes found but single quotes preferred
+[4.489s]             "class_id":    cls,
+[4.489s]             ^
+[4.490s] 
+[4.490s] ./robo_vision/perception_utils.py:51:13: Q000 Double quotes found but single quotes preferred
+[4.491s]             "class":       model.names[cls],
+[4.491s]             ^
+[4.492s] 
+[4.492s] ./robo_vision/perception_utils.py:52:13: Q000 Double quotes found but single quotes preferred
+[4.493s]             "confidence":  conf,
+[4.493s]             ^
+[4.494s] 
+[4.495s] ./robo_vision/perception_utils.py:53:13: Q000 Double quotes found but single quotes preferred
+[4.496s]             "cx_pixel":    cx,
+[4.508s]             ^
+[4.509s] 
+[4.510s] ./robo_vision/perception_utils.py:54:13: Q000 Double quotes found but single quotes preferred
+[4.511s]             "cy_pixel":    cy,
+[4.512s]             ^
+[4.512s] 
+[4.513s] ./robo_vision/perception_utils.py:55:13: Q000 Double quotes found but single quotes preferred
+[4.515s]             "width_pixel": width,
+[4.516s]             ^
+[4.517s] 
+[4.518s] ./robo_vision/perception_utils.py:56:13: Q000 Double quotes found but single quotes preferred
+[4.519s]             "height_pixel": height
+[4.520s]             ^
+[4.520s] 
+[4.521s] ./robo_vision/perception_utils.py:69:50: Q000 Double quotes found but single quotes preferred
+[4.522s]         detections = [d for d in detections if d["class"] == target_class]
+[4.522s]                                                  ^
+[4.523s] 
+[4.524s] ./robo_vision/perception_utils.py:74:44: Q000 Double quotes found but single quotes preferred
+[4.524s]     return max(detections, key=lambda x: x["confidence"])
+[4.525s]                                            ^
+[4.525s] 
+[4.526s] ./robo_vision/perception_utils.py:96:1: W293 blank line contains whitespace
+[4.526s]     
+[4.527s] ^
+[4.527s] 
+[4.528s] ./robo_vision/perception_utils.py:102:1: E302 expected 2 blank lines, found 1
+[4.528s] def compute_signal(target, frame_width):
+[4.529s] ^
+[4.529s] 
+[4.530s] ./robo_vision/perception_utils.py:103:1: W293 blank line contains whitespace
+[4.530s]     
+[4.531s] ^
+[4.532s] 
+[4.533s] ./robo_vision/perception_utils.py:105:17: Q000 Double quotes found but single quotes preferred
+[4.534s]         return {"found": False}
+[4.535s]                 ^
+[4.535s] 
+[4.536s] ./robo_vision/perception_utils.py:108:17: Q000 Double quotes found but single quotes preferred
+[4.537s]     x1 = target["cx_pixel"] - target["width_pixel"]/2
+[4.537s]                 ^
+[4.538s] 
+[4.538s] ./robo_vision/perception_utils.py:108:38: Q000 Double quotes found but single quotes preferred
+[4.538s]     x1 = target["cx_pixel"] - target["width_pixel"]/2
+[4.539s]                                      ^
+[4.539s] 
+[4.540s] ./robo_vision/perception_utils.py:109:17: Q000 Double quotes found but single quotes preferred
+[4.541s]     y1 = target["cy_pixel"] - target["height_pixel"]/2
+[4.542s]                 ^
+[4.543s] 
+[4.544s] ./robo_vision/perception_utils.py:109:38: Q000 Double quotes found but single quotes preferred
+[4.546s]     y1 = target["cy_pixel"] - target["height_pixel"]/2
+[4.547s]                                      ^
+[4.548s] 
+[4.549s] ./robo_vision/perception_utils.py:110:17: Q000 Double quotes found but single quotes preferred
+[4.551s]     x2 = target["cx_pixel"] + target["width_pixel"]/2
+[4.552s]                 ^
+[4.553s] 
+[4.554s] ./robo_vision/perception_utils.py:110:38: Q000 Double quotes found but single quotes preferred
+[4.555s]     x2 = target["cx_pixel"] + target["width_pixel"]/2
+[4.556s]                                      ^
+[4.557s] 
+[4.558s] ./robo_vision/perception_utils.py:111:17: Q000 Double quotes found but single quotes preferred
+[4.559s]     y2 = target["cy_pixel"] + target["height_pixel"]/2
+[4.560s]                 ^
+[4.560s] 
+[4.561s] ./robo_vision/perception_utils.py:111:38: Q000 Double quotes found but single quotes preferred
+[4.562s]     y2 = target["cy_pixel"] + target["height_pixel"]/2
+[4.563s]                                      ^
+[4.563s] 
+[4.564s] ./robo_vision/perception_utils.py:117:25: Q000 Double quotes found but single quotes preferred
+[4.565s]     class_name = target["class"]
+[4.565s]                         ^
+[4.566s] 
+[4.567s] ./robo_vision/perception_utils.py:118:22: Q000 Double quotes found but single quotes preferred
+[4.568s]     if class_name == "bottle":
+[4.568s]                      ^
+[4.569s] 
+[4.570s] ./robo_vision/perception_utils.py:120:24: Q000 Double quotes found but single quotes preferred
+[4.571s]     elif class_name == "cup":
+[4.571s]                        ^
+[4.572s] 
+[4.572s] ./robo_vision/perception_utils.py:122:24: Q000 Double quotes found but single quotes preferred
+[4.573s]     elif class_name == "sports ball":
+[4.574s]                        ^
+[4.574s] 
+[4.575s] ./robo_vision/perception_utils.py:129:41: Q000 Double quotes found but single quotes preferred
+[4.576s]     offset_x = normalized_offset(target["cx_pixel"], frame_width)
+[4.577s]                                         ^
+[4.577s] 
+[4.578s] ./robo_vision/perception_utils.py:132:9: Q000 Double quotes found but single quotes preferred
+[4.579s]         "found": True,
+[4.579s]         ^
+[4.580s] 
+[4.580s] ./robo_vision/perception_utils.py:133:9: Q000 Double quotes found but single quotes preferred
+[4.581s]         "class": target["class"],
+[4.581s]         ^
+[4.582s] 
+[4.582s] ./robo_vision/perception_utils.py:133:25: Q000 Double quotes found but single quotes preferred
+[4.583s]         "class": target["class"],
+[4.583s]                         ^
+[4.584s] 
+[4.584s] ./robo_vision/perception_utils.py:134:9: Q000 Double quotes found but single quotes preferred
+[4.585s]         "area_pixel": area_pixel,
+[4.585s]         ^
+[4.586s] 
+[4.587s] ./robo_vision/perception_utils.py:135:9: Q000 Double quotes found but single quotes preferred
+[4.587s]         "distance": distance,
+[4.588s]         ^
+[4.589s] 
+[4.589s] ./robo_vision/perception_utils.py:136:9: Q000 Double quotes found but single quotes preferred
+[4.590s]         "offset_x": offset_x,
+[4.590s]         ^
+[4.591s] 
+[4.591s] ./robo_vision/perception_utils.py:137:9: Q000 Double quotes found but single quotes preferred
+[4.591s]         "confidence": target["confidence"]
+[4.592s]         ^
+[4.593s] 
+[4.593s] ./robo_vision/perception_utils.py:137:30: Q000 Double quotes found but single quotes preferred
+[4.594s]         "confidence": target["confidence"]
+[4.594s]                              ^
+[4.595s] 
+[4.596s] ./robo_vision/perception_utils.py:138:6: W292 no newline at end of file
+[4.596s]     }     ^
+[4.597s] 
+[4.598s] 3     E221 multiple spaces before operator
+[4.598s] 2     E302 expected 2 blank lines, found 1
+[4.599s] 1     E303 too many blank lines (2)
+[4.599s] 1     E501 line too long (130 > 99 characters)
+[4.600s] 2     F401 'json' imported but unused
+[4.601s] 1     I100 Import statements are in the wrong order. 'import json' should be before 'from ultralytics import YOLO' and in a different group.
+[4.601s] 2     I201 Missing newline between import groups. 'import json' is identified as Stdlib and 'from ultralytics import YOLO' is identified as Third Party.
+[4.602s] 88    Q000 Double quotes found but single quotes preferred
+[4.602s] 1     W291 trailing whitespace
+[4.603s] 2     W292 no newline at end of file
+[4.603s] 2     W293 blank line contains whitespace
+[4.604s] 
+[4.605s] 8 files checked
+[4.605s] 105 errors
+[4.606s] 
+[4.606s] 'E'-type errors: 7
+[4.607s] 'F'-type errors: 2
+[4.607s] 'I'-type errors: 3
+[4.607s] 'Q'-type errors: 88
+[4.608s] 'W'-type errors: 5
+[4.609s] 
+[4.609s] Checked files:
+[4.610s] 
+[4.611s] * ./setup.py
+[4.611s] * ./robo_vision/perception_utils.py
+[4.612s] * ./robo_vision/chassis_obj_det.py
+[4.613s] * ./robo_vision/__init__.py
+[4.613s] * ./robo_vision/camera_stream_node.py
+[4.614s] * ./test/test_copyright.py
+[4.615s] * ./test/test_flake8.py
+[4.615s] * ./test/test_pep257.py
+[4.616s] [31m[1m_________________________________ test_pep257 __________________________________[0m
+[4.616s] [1m[31mtest/test_pep257.py[0m:23: in test_pep257
+[4.617s]     [94massert[39;49;00m rc == [94m0[39;49;00m, [33m'[39;49;00m[33mFound code style errors / warnings[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+[4.617s] [1m[31mE   AssertionError: Found code style errors / warnings[0m
+[4.618s] [1m[31mE   assert 1 == 0[0m
+[4.618s] ----------------------------- Captured stdout call -----------------------------
+[4.619s] checking ./robo_vision/__init__.py
+[4.619s] checking ./robo_vision/camera_stream_node.py
+[4.620s] checking ./robo_vision/chassis_obj_det.py
+[4.620s] checking ./robo_vision/perception_utils.py
+[4.621s] checking ./setup.py
+[4.621s] checking ./test/test_copyright.py
+[4.622s] checking ./test/test_flake8.py
+[4.622s] checking ./test/test_pep257.py
+[4.623s] checking test/test_copyright.py
+[4.624s] checking test/test_flake8.py
+[4.625s] checking test/test_pep257.py
+[4.626s] ----------------------------- Captured stderr call -----------------------------
+[4.626s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D407: Missing dashed underline after section ('Parameters')
+[4.627s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D406: Section name should end with a newline ('Parameters', not 'Parameters:')
+[4.628s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D417: Missing argument descriptions in the docstring (argument(s) x1, x2, y1, y2 are missing descriptions in 'bb_area' docstring)
+[4.629s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D413: Missing blank line after last section ('Returns')
+[4.630s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D407: Missing dashed underline after section ('Returns')
+[4.630s] ./robo_vision/perception_utils.py:79 in public function `bb_area`: D406: Section name should end with a newline ('Returns', not 'Returns:')
+[4.631s] 6 errors
+[4.631s] -------- generated xml file: /home/rtk/rtk/build/robo_vision/pytest.xml --------
+[4.632s] [36m[1m=========================== short test summary info ============================[0m
+[4.633s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 105 code style errors / warnings:
+[4.633s] [31mFAILED[0m test/test_pep257.py::[1mtest_pep257[0m - AssertionError: Found code style errors / warnings
+[4.634s] [31m========================= [31m[1m2 failed[0m, [33m1 skipped[0m[31m in 1.48s[0m[31m =========================[0m
+[4.635s] Invoked command in '/home/rtk/rtk/src/robo_vision' returned '1': AMENT_PREFIX_PATH=/home/rtk/rtk/install/robo_vision:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rtk/rtk/build/robo_vision/pytest.xml --junit-prefix=robo_vision -o cache_dir=/home/rtk/rtk/build/robo_vision/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

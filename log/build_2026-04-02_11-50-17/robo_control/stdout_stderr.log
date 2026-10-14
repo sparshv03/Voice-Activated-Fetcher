@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/robo_control/robo_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo_control/robo_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robo_control/robo_control.egg-info/entry_points.txt
+writing requirements to ../../build/robo_control/robo_control.egg-info/requires.txt
+writing top-level names to ../../build/robo_control/robo_control.egg-info/top_level.txt
+reading manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/full_pipeline.launch.py -> /home/apollo930/rtk/install/robo_control/share/robo_control/launch
+running install_egg_info
+removing '/home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robo_control/robo_control.egg-info to /home/apollo930/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing packet_mapper script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+Installing propeller_tracker script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+Installing step_bridge_arm script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+Installing ultrasonic_arm_mapper script to /home/apollo930/rtk/install/robo_control/lib/robo_control
+writing list of installed files to '/home/apollo930/rtk/build/robo_control/install.log'

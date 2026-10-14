@@ -1,0 +1,44 @@
+[3.983s] Invoking command in '/home/rtk/rtk/src/robo_vision': PYTHONPATH=/home/rtk/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/rtk/rtk/build/robo_vision/build install --record /home/rtk/rtk/build/robo_vision/install.log --single-version-externally-managed install_data
+[5.021s] running egg_info
+[5.022s] creating ../../build/robo_vision/robo_vision.egg-info
+[5.091s] writing ../../build/robo_vision/robo_vision.egg-info/PKG-INFO
+[5.092s] writing dependency_links to ../../build/robo_vision/robo_vision.egg-info/dependency_links.txt
+[5.093s] writing entry points to ../../build/robo_vision/robo_vision.egg-info/entry_points.txt
+[5.094s] writing requirements to ../../build/robo_vision/robo_vision.egg-info/requires.txt
+[5.095s] writing top-level names to ../../build/robo_vision/robo_vision.egg-info/top_level.txt
+[5.095s] writing manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+[5.245s] reading manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+[5.248s] writing manifest file '../../build/robo_vision/robo_vision.egg-info/SOURCES.txt'
+[5.248s] running build
+[5.249s] running build_py
+[5.250s] creating /home/rtk/rtk/build/robo_vision/build
+[5.250s] creating /home/rtk/rtk/build/robo_vision/build/lib
+[5.251s] creating /home/rtk/rtk/build/robo_vision/build/lib/robo_vision
+[5.251s] copying robo_vision/perception_utils.py -> /home/rtk/rtk/build/robo_vision/build/lib/robo_vision
+[5.252s] copying robo_vision/chassis_obj_det.py -> /home/rtk/rtk/build/robo_vision/build/lib/robo_vision
+[5.252s] copying robo_vision/__init__.py -> /home/rtk/rtk/build/robo_vision/build/lib/robo_vision
+[5.253s] copying robo_vision/camera_stream_node.py -> /home/rtk/rtk/build/robo_vision/build/lib/robo_vision
+[5.254s] running install
+[5.284s] running install_lib
+[5.358s] creating /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[5.358s] copying /home/rtk/rtk/build/robo_vision/build/lib/robo_vision/perception_utils.py -> /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[5.359s] copying /home/rtk/rtk/build/robo_vision/build/lib/robo_vision/chassis_obj_det.py -> /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[5.360s] copying /home/rtk/rtk/build/robo_vision/build/lib/robo_vision/__init__.py -> /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[5.361s] copying /home/rtk/rtk/build/robo_vision/build/lib/robo_vision/camera_stream_node.py -> /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision
+[5.363s] byte-compiling /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/perception_utils.py to perception_utils.cpython-312.pyc
+[5.368s] byte-compiling /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/chassis_obj_det.py to chassis_obj_det.cpython-312.pyc
+[5.374s] byte-compiling /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/__init__.py to __init__.cpython-312.pyc
+[5.375s] byte-compiling /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision/camera_stream_node.py to camera_stream_node.cpython-312.pyc
+[5.379s] running install_data
+[5.380s] creating /home/rtk/rtk/install/robo_vision/share/ament_index
+[5.380s] creating /home/rtk/rtk/install/robo_vision/share/ament_index/resource_index
+[5.381s] creating /home/rtk/rtk/install/robo_vision/share/ament_index/resource_index/packages
+[5.382s] copying resource/robo_vision -> /home/rtk/rtk/install/robo_vision/share/ament_index/resource_index/packages
+[5.382s] copying package.xml -> /home/rtk/rtk/install/robo_vision/share/robo_vision
+[5.383s] running install_egg_info
+[5.464s] Copying ../../build/robo_vision/robo_vision.egg-info to /home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages/robo_vision-0.0.0-py3.12.egg-info
+[5.469s] running install_scripts
+[6.064s] Installing camera_stream script to /home/rtk/rtk/install/robo_vision/lib/robo_vision
+[6.065s] Installing object_det_remote script to /home/rtk/rtk/install/robo_vision/lib/robo_vision
+[6.067s] writing list of installed files to '/home/rtk/rtk/build/robo_vision/install.log'
+[6.207s] Invoked command in '/home/rtk/rtk/src/robo_vision' returned '0': PYTHONPATH=/home/rtk/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/rtk/rtk/build/robo_vision/build install --record /home/rtk/rtk/build/robo_vision/install.log --single-version-externally-managed install_data

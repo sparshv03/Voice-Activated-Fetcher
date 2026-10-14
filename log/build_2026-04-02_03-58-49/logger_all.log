@@ -1,0 +1,174 @@
+[0.412s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robo_control', 'robo_vision']
+[0.413s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robo_control', 'robo_vision'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8cb01820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8cca9e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8cca9e50>>)
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.580s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rtk/rtk'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extension 'ignore_ament_install'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extensions ['ros']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_control) by extension 'ros'
+[0.708s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_control' with type 'ros.ament_python' and name 'robo_control'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_vision) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_vision' with type 'ros.ament_python' and name 'robo_vision'
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.802s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rtk/rtk/install
+[0.810s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 193 installed packages in /opt/ros/jazzy
+[0.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_args' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_target' from command line to 'None'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.957s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.958s] Level 5:colcon.colcon_core.verb:set package 'robo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.958s] DEBUG:colcon.colcon_core.verb:Building package 'robo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rtk/rtk/build/robo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rtk/rtk/install/robo_control', 'merge_install': False, 'path': '/home/rtk/rtk/src/robo_control', 'symlink_install': False, 'test_result_base': None}
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_args' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_target' from command line to 'None'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.960s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'robo_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.961s] DEBUG:colcon.colcon_core.verb:Building package 'robo_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rtk/rtk/build/robo_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rtk/rtk/install/robo_vision', 'merge_install': False, 'path': '/home/rtk/rtk/src/robo_vision', 'symlink_install': False, 'test_result_base': None}
+[0.962s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.965s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.967s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rtk/rtk/src/robo_control' with build type 'ament_python'
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_control', 'ament_prefix_path')
+[0.977s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_control/share/robo_control/hook/ament_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rtk/rtk/install/robo_control/share/robo_control/hook/ament_prefix_path.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_control/share/robo_control/hook/ament_prefix_path.sh'
+[0.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.002s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rtk/rtk/src/robo_vision' with build type 'ament_python'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_vision', 'ament_prefix_path')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/ament_prefix_path.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/ament_prefix_path.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/ament_prefix_path.sh'
+[1.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rtk/rtk/src/robo_control'
+[1.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rtk/rtk/src/robo_vision'
+[2.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rtk/rtk/src/robo_vision': PYTHONPATH=/home/rtk/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/rtk/rtk/build/robo_vision/build install --record /home/rtk/rtk/build/robo_vision/install.log --single-version-externally-managed install_data
+[5.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rtk/rtk/src/robo_control': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/rtk/rtk/build/robo_control/build install --record /home/rtk/rtk/build/robo_control/install.log --single-version-externally-managed install_data
+[8.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rtk/rtk/src/robo_vision' returned '0': PYTHONPATH=/home/rtk/rtk/build/robo_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_vision build --build-base /home/rtk/rtk/build/robo_vision/build install --record /home/rtk/rtk/build/robo_vision/install.log --single-version-externally-managed install_data
+[8.050s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision' for CMake module files
+[8.055s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision' for CMake config files
+[8.061s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision/lib'
+[8.063s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision/bin'
+[8.063s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision/lib/pkgconfig/robo_vision.pc'
+[8.065s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision/lib/python3.12/site-packages'
+[8.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_vision', 'pythonpath')
+[8.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/pythonpath.ps1'
+[8.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/pythonpath.dsv'
+[8.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_vision/share/robo_vision/hook/pythonpath.sh'
+[8.078s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_vision/bin'
+[8.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_vision)
+[8.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_vision/share/robo_vision/package.ps1'
+[8.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rtk/rtk/install/robo_vision/share/robo_vision/package.dsv'
+[8.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_vision/share/robo_vision/package.sh'
+[8.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_vision/share/robo_vision/package.bash'
+[8.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_vision/share/robo_vision/package.zsh'
+[8.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rtk/rtk/install/robo_vision/share/colcon-core/packages/robo_vision)
+[8.129s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control' for CMake module files
+[8.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rtk/rtk/src/robo_control' returned '0': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/rtk/rtk/build/robo_control/build install --record /home/rtk/rtk/build/robo_control/install.log --single-version-externally-managed install_data
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control' for CMake config files
+[8.136s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control/lib'
+[8.137s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control/bin'
+[8.137s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control/lib/pkgconfig/robo_control.pc'
+[8.138s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages'
+[8.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_control', 'pythonpath')
+[8.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_control/share/robo_control/hook/pythonpath.ps1'
+[8.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rtk/rtk/install/robo_control/share/robo_control/hook/pythonpath.dsv'
+[8.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rtk/rtk/install/robo_control/share/robo_control/hook/pythonpath.sh'
+[8.146s] Level 1:colcon.colcon_core.environment:checking '/home/rtk/rtk/install/robo_control/bin'
+[8.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_control)
+[8.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_control/share/robo_control/package.ps1'
+[8.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rtk/rtk/install/robo_control/share/robo_control/package.dsv'
+[8.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_control/share/robo_control/package.sh'
+[8.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_control/share/robo_control/package.bash'
+[8.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/rtk/rtk/install/robo_control/share/robo_control/package.zsh'
+[8.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rtk/rtk/install/robo_control/share/colcon-core/packages/robo_control)
+[8.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.159s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.159s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.161s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rtk/rtk/install/local_setup.ps1'
+[8.165s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rtk/rtk/install/_local_setup_util_ps1.py'
+[8.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rtk/rtk/install/setup.ps1'
+[8.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rtk/rtk/install/local_setup.sh'
+[8.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rtk/rtk/install/_local_setup_util_sh.py'
+[8.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rtk/rtk/install/setup.sh'
+[8.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rtk/rtk/install/local_setup.bash'
+[8.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rtk/rtk/install/setup.bash'
+[8.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rtk/rtk/install/local_setup.zsh'
+[8.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rtk/rtk/install/setup.zsh'

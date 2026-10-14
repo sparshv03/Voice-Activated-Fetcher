@@ -1,0 +1,39 @@
+[4.569s] Invoking command in '/home/rtk/rtk/src/robo_control': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/rtk/rtk/build/robo_control/build install --record /home/rtk/rtk/build/robo_control/install.log --single-version-externally-managed install_data
+[5.745s] running egg_info
+[5.747s] creating ../../build/robo_control/robo_control.egg-info
+[5.826s] writing ../../build/robo_control/robo_control.egg-info/PKG-INFO
+[5.829s] writing dependency_links to ../../build/robo_control/robo_control.egg-info/dependency_links.txt
+[5.830s] writing entry points to ../../build/robo_control/robo_control.egg-info/entry_points.txt
+[5.831s] writing requirements to ../../build/robo_control/robo_control.egg-info/requires.txt
+[5.832s] writing top-level names to ../../build/robo_control/robo_control.egg-info/top_level.txt
+[5.833s] writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+[6.004s] reading manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+[6.007s] writing manifest file '../../build/robo_control/robo_control.egg-info/SOURCES.txt'
+[6.008s] running build
+[6.008s] running build_py
+[6.010s] creating /home/rtk/rtk/build/robo_control/build
+[6.011s] creating /home/rtk/rtk/build/robo_control/build/lib
+[6.011s] creating /home/rtk/rtk/build/robo_control/build/lib/robo_control
+[6.013s] copying robo_control/__init__.py -> /home/rtk/rtk/build/robo_control/build/lib/robo_control
+[6.014s] copying robo_control/chassis_control.py -> /home/rtk/rtk/build/robo_control/build/lib/robo_control
+[6.014s] running install
+[6.041s] running install_lib
+[6.121s] creating /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control
+[6.122s] copying /home/rtk/rtk/build/robo_control/build/lib/robo_control/__init__.py -> /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control
+[6.123s] copying /home/rtk/rtk/build/robo_control/build/lib/robo_control/chassis_control.py -> /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control
+[6.125s] byte-compiling /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control/__init__.py to __init__.cpython-312.pyc
+[6.127s] byte-compiling /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control/chassis_control.py to chassis_control.cpython-312.pyc
+[6.138s] running install_data
+[6.139s] creating /home/rtk/rtk/install/robo_control/share/ament_index
+[6.140s] creating /home/rtk/rtk/install/robo_control/share/ament_index/resource_index
+[6.142s] creating /home/rtk/rtk/install/robo_control/share/ament_index/resource_index/packages
+[6.142s] copying resource/robo_control -> /home/rtk/rtk/install/robo_control/share/ament_index/resource_index/packages
+[6.143s] copying package.xml -> /home/rtk/rtk/install/robo_control/share/robo_control
+[6.144s] creating /home/rtk/rtk/install/robo_control/share/robo_control/launch
+[6.147s] copying launch/raspi_stack.launch.py -> /home/rtk/rtk/install/robo_control/share/robo_control/launch
+[6.147s] running install_egg_info
+[6.231s] Copying ../../build/robo_control/robo_control.egg-info to /home/rtk/rtk/install/robo_control/lib/python3.12/site-packages/robo_control-0.0.0-py3.12.egg-info
+[6.237s] running install_scripts
+[6.983s] Installing propeller_tracker script to /home/rtk/rtk/install/robo_control/lib/robo_control
+[6.986s] writing list of installed files to '/home/rtk/rtk/build/robo_control/install.log'
+[7.163s] Invoked command in '/home/rtk/rtk/src/robo_control' returned '0': PYTHONPATH=/home/rtk/rtk/build/robo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rtk/rtk/install/robo_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robo_control build --build-base /home/rtk/rtk/build/robo_control/build install --record /home/rtk/rtk/build/robo_control/install.log --single-version-externally-managed install_data

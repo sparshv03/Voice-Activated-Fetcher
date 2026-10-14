@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Speech to Text</title>
+    <style>
+      body {
+        font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        padding: 20px;
+        margin: 0;
+        background: radial-gradient(circle at 20% 20%, #f6fbff 0%, #e9f3ff 45%, #d9e9ff 100%);
+        color: #103b61;
+      }
+      .app {
+        max-width: 560px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.88);
+        border: 1px solid #c6dcf4;
+        border-radius: 18px;
+        padding: 18px;
+      }
+      .status-row {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .pill {
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+      .idle {
+        background: #e8f3ff;
+        color: #2e5f8e;
+      }
+      .live {
+        background: #ffe8ea;
+        color: #842132;
+      }
+      .warn {
+        background: #fff5e9;
+        color: #8a5617;
+      }
+      button {
+        font-size: 1.05rem;
+        font-weight: 700;
+        padding: 12px 18px;
+        margin: 12px 0;
+        border-radius: 12px;
+        border: 0;
+        cursor: pointer;
+      }
+      #start {
+        background: #1083d6;
+        color: #ffffff;
+      }
+      #text {
+        background: #f8fcff;
+        border: 1px solid #d2e4f6;
+        border-radius: 12px;
+        padding: 14px;
+        min-height: 72px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Live Speech - Text</h1>
+      <div class="status-row">
+        <div id="recordStatus" class="pill idle">Mic: idle</div>
+      </div>
+      <button id="start">Start Streaming</button>
+      <p id="text">Transcript will appear here...</p>
+    </div>
+
+    <script>
+      let ws, mediaRecorder;
+      const textEl = document.getElementById("text");
+      const recordStatusEl = document.getElementById("recordStatus");
+
+      function getWsUrl() {
+        const wsProtocol = window.location.protocol === "https:" ? "wss" : "ws";
+        return `${wsProtocol}://${window.location.host}/ws`;
+      }
+
+      function setStatus(text, cls) {
+        recordStatusEl.textContent = text;
+        recordStatusEl.className = `pill ${cls}`;
+      }
+
+      document.getElementById("start").onclick = async () => {
+        try {
+          const isLocalhost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+          const hasSecureMicContext = window.isSecureContext || isLocalhost;
+          if (!hasSecureMicContext) {
+            setStatus("Mic: blocked by browser", "warn");
+            textEl.innerText = "Use HTTPS on phone for microphone access.";
+            return;
+          }
+
+          ws = new WebSocket(getWsUrl());
+          ws.onmessage = (event) => {
+            textEl.innerText = event.data || "(no speech detected)";
+          };
+
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          mediaRecorder = new MediaRecorder(stream, { mimeType: "audio/webm; codecs=opus" });
+          mediaRecorder.ondataavailable = async (e) => {
+            if (ws.readyState === WebSocket.OPEN && e.data.size > 0) {
+              ws.send(await e.data.arrayBuffer());
+              setStatus("Mic: recording", "live");
+            }
+          };
+          mediaRecorder.start(500);
+        } catch (_err) {
+          setStatus("Mic: permission denied", "warn");
+          textEl.innerText = "Allow microphone permission and retry.";
+        }
+      };
+    </script>
+  </body>
+</html>
